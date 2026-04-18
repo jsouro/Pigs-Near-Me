@@ -36,4 +36,14 @@ export const pigFacts: PigFact[] = [
     fact:
       'A sow’s pregnancy usually lasts around 112 to 120 days, and pigs can have large litters of piglets.',
   },
+  {
+    title: 'Pigs are strong communicators',
+    fact:
+      'Pigs use a range of grunts, squeals, and body language to communicate with each other.',
+  },
+  {
+    title: 'Some pig breeds look wildly different',
+    fact:
+      'Depending on breed, pigs can be woolly, spotted, solid black, bright red, or compact enough to be kept as pets.',
+  },
 ]

@@ -122,6 +122,32 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.breed-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.breed-gallery-card {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(173, 64, 109, 0.12);
+}
+
+.breed-gallery-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #ffe6ef;
+}
+
+.breed-gallery-copy {
+  padding: 1.1rem 1.2rem 1.3rem;
+  text-align: left;
+}
+
 .facts-source-line,
 .facts-source-note {
   color: #8c4565;
@@ -207,7 +233,8 @@ h3 {
   }
 
   .card-grid,
-  .facts-grid {
+  .facts-grid,
+  .breed-gallery-grid {
     grid-template-columns: 1fr;
   }
 }

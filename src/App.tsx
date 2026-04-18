@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import { pigFacts as fallbackPigFacts, type PigFact } from './pigFacts'
-import { pigBreeds } from './pigBreeds'
+import { pigBreedGallery } from './pigBreedGallery'
 
 type PigSpot = {
   name: string
@@ -62,6 +62,17 @@ const pigSpots: PigSpot[] = [
 
 const factsUrl = 'https://raw.githubusercontent.com/jsouro/Pigs-Near-Me/main/src/pigFacts.ts'
 
+function shuffleFacts<T>(items: T[]) {
+  const copy = [...items]
+
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+
+  return copy
+}
+
 function App() {
   const [pigFacts, setPigFacts] = useState<PigFact[]>(fallbackPigFacts)
   const [factsStatus, setFactsStatus] = useState<'loading' | 'live' | 'fallback'>(
@@ -87,16 +98,18 @@ function App() {
           throw new Error('No facts parsed from source')
         }
 
-        setPigFacts(parsedFacts)
+        setPigFacts(shuffleFacts(parsedFacts))
         setFactsStatus('live')
       } catch {
-        setPigFacts(fallbackPigFacts)
+        setPigFacts(shuffleFacts(fallbackPigFacts))
         setFactsStatus('fallback')
       }
     }
 
     void loadFacts()
   }, [])
+
+  const featuredFacts = useMemo(() => pigFacts.slice(0, 6), [pigFacts])
 
   return (
     <div className="page-shell">
@@ -129,7 +142,7 @@ function App() {
           <ul>
             <li>Expanded Metro Detroit animal stops</li>
             <li>Live-linked farm websites for planning</li>
-            <li>Facts loaded dynamically from a source file</li>
+            <li>Dynamic facts and breed gallery behavior</li>
           </ul>
         </div>
       </header>
@@ -170,10 +183,10 @@ function App() {
         <section id="facts" className="section alt-section">
           <div className="section-heading narrow">
             <p className="section-kicker">Pig facts</p>
-            <h2>Things pigs do that make them even cooler</h2>
+            <h2>Different pig facts every time you refresh</h2>
             <p className="facts-source-line">
               {factsStatus === 'live'
-                ? 'Facts are loading from the site source dynamically.'
+                ? 'Facts are loaded from the live source file and shuffled on each refresh.'
                 : factsStatus === 'loading'
                   ? 'Loading pig facts...'
                   : 'Using fallback pig facts while the live source catches up.'}
@@ -187,7 +200,7 @@ function App() {
           </div>
 
           <div className="facts-grid">
-            {pigFacts.map((item) => (
+            {featuredFacts.map((item) => (
               <article className="fact-card" key={item.title}>
                 <h3>{item.title}</h3>
                 <p>{item.fact}</p>
@@ -199,27 +212,28 @@ function App() {
         <section id="breeds" className="section alt-section">
           <div className="section-heading">
             <p className="section-kicker">Pig breeds</p>
-            <h2>Different kinds of pigs you should know</h2>
+            <h2>World pig breed gallery</h2>
             <p>
-              Not every pig looks the same. Some are classic farm breeds, some are
-              known for their coat color or body shape, and some are popular because
-              they look extra cute in person.
+              This section now behaves more like a dynamic gallery, showing a wider
+              set of pig breeds from around the world with photos when available.
+              I’m starting from a broad global list and pairing in Wikimedia-hosted
+              images for stable display.
             </p>
           </div>
 
-          <div className="facts-grid breeds-grid">
-            {pigBreeds.map((breed) => (
-              <article className="fact-card breed-card" key={breed.name}>
-                <h3>{breed.name}</h3>
-                <p>
-                  <strong>Origin:</strong> {breed.origin}
-                </p>
-                <p>
-                  <strong>Look:</strong> {breed.look}
-                </p>
-                <p>
-                  <strong>Known for:</strong> {breed.personality}
-                </p>
+          <div className="breed-gallery-grid">
+            {pigBreedGallery.map((breed) => (
+              <article className="breed-gallery-card" key={breed.name}>
+                <img src={breed.imageUrl} alt={breed.imageAlt} loading="lazy" />
+                <div className="breed-gallery-copy">
+                  <h3>{breed.name}</h3>
+                  <p>
+                    <strong>Origin:</strong> {breed.origin}
+                  </p>
+                  <p>
+                    <strong>Color:</strong> {breed.color}
+                  </p>
+                </div>
               </article>
             ))}
           </div>
