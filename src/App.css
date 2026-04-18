@@ -191,8 +191,13 @@
   border-radius: 18px;
 }
 
-.event-date {
+.event-date,
+.event-source {
   color: #7a3554;
+}
+
+.event-source {
+  margin-top: 0.7rem;
 }
 
 .facts-source-line,

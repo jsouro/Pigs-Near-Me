@@ -1,32 +1,38 @@
-export type PigEventCategory = 'Fair' | 'Farm event' | '4-H' | 'Open day'
+export type PigEventCategory =
+  | 'Fair'
+  | 'Farm event'
+  | '4-H'
+  | 'Open day'
+  | 'Festival'
+  | 'Market'
 
 export type PigEvent = {
   name: string
   host: string
   city: string
   category: PigEventCategory
-  // Exactly one of these two should be set:
-  nextDate?: string // ISO 'YYYY-MM-DD' for known upcoming or one-off events
-  recurringMonth?: number // 1-12 for annual recurring events whose exact date varies
-  recurringLabel?: string // human-friendly label for recurring entries
+  source: 'website' | 'facebook-check' | 'manual-refresh'
+  nextDate?: string
+  recurringMonth?: number
+  recurringLabel?: string
   description: string
   link: string
 }
 
-// Metro Detroit area events that feature pigs (county fair swine shows,
-// seasonal farm events, 4-H livestock shows, and farm open days). Dates are
-// intentionally stored as either a specific `nextDate` or as a recurring month
-// so the list stays self-maintaining — past entries drop off automatically.
+// Metro Detroit farm events, broader than pig-only activities.
+// These are intentionally structured so a daily refresh workflow can replace
+// dates or add entries without rewriting the page logic.
 export const pigEvents: PigEvent[] = [
   {
     name: 'Oakland County Fair',
     host: 'Oakland County 4-H Fair Association',
     city: 'Davisburg, MI',
     category: 'Fair',
+    source: 'website',
     recurringMonth: 7,
     recurringLabel: 'Early July, annually',
     description:
-      'A classic county fair with a 4-H swine show, barns full of market hogs, and plenty of family-friendly farm activities.',
+      'A major Metro Detroit county fair with livestock shows, barns, midway attractions, and broad family farm energy.',
     link: 'https://www.oakfair.org/',
   },
   {
@@ -34,10 +40,11 @@ export const pigEvents: PigEvent[] = [
     host: 'Armada Agricultural Society',
     city: 'Armada, MI',
     category: 'Fair',
+    source: 'website',
     recurringMonth: 8,
     recurringLabel: 'Mid-August, annually',
     description:
-      'Longstanding Macomb County fair with livestock shows including swine, plus midway rides and a rural-town vibe.',
+      'A longstanding Macomb County agricultural fair with livestock, exhibits, rides, and classic small-town farm culture.',
     link: 'https://www.armadafair.org/',
   },
   {
@@ -45,21 +52,23 @@ export const pigEvents: PigEvent[] = [
     host: 'Michigan State Fair LLC',
     city: 'Novi, MI',
     category: 'Fair',
+    source: 'website',
     recurringMonth: 8,
     recurringLabel: 'Labor Day weekend',
     description:
-      'The revived state fair at Suburban Collection Showplace with 4-H livestock competitions, including swine showmanship.',
+      'The revived state fair in Novi with agriculture programming, livestock competitions, food, and family activities.',
     link: 'https://www.michiganstatefairllc.com/',
   },
   {
     name: 'Maybury Farm Harvest Festival',
     host: 'Maybury Farm',
     city: 'Northville, MI',
-    category: 'Farm event',
+    category: 'Festival',
+    source: 'website',
     recurringMonth: 10,
     recurringLabel: 'Weekends in October',
     description:
-      'Fall festival with pig visits, hayrides, and a corn maze at a Metro Detroit farm regulars love.',
+      'A fall farm festival with hayrides, a corn maze, barnyard animals, and one of the best easy farm outings near Detroit.',
     link: 'https://mayburyfarm.org/',
   },
   {
@@ -67,10 +76,11 @@ export const pigEvents: PigEvent[] = [
     host: 'Maybury Farm',
     city: 'Northville, MI',
     category: 'Farm event',
+    source: 'website',
     recurringMonth: 3,
     recurringLabel: 'A Saturday in March',
     description:
-      'Watch maple sap get boiled down, meet barnyard animals including the pigs, and enjoy pancakes.',
+      'Maple syrup demonstrations, pancakes, and barnyard visits in a more seasonal educational farm setting.',
     link: 'https://mayburyfarm.org/',
   },
   {
@@ -78,21 +88,23 @@ export const pigEvents: PigEvent[] = [
     host: 'Upland Hills Farm',
     city: 'Oxford, MI',
     category: 'Open day',
+    source: 'website',
     recurringMonth: 5,
     recurringLabel: 'Select weekends, spring through fall',
     description:
-      'Scheduled public days with hands-on animal encounters — a cozy day-trip farm with classic small-farm charm.',
+      'Public access days with animal encounters, farm scenery, and a quieter small-farm experience.',
     link: 'https://www.uplandhillsfarm.com/',
   },
   {
     name: "DeBuck's Fall Harvest Festival",
     host: "DeBuck's Family Farm",
     city: 'Belleville, MI',
-    category: 'Farm event',
+    category: 'Festival',
+    source: 'website',
     recurringMonth: 9,
     recurringLabel: 'September through October',
     description:
-      'Large-scale fall attraction with pig races, a corn maze, a pumpkin patch, and farm-animal encounters.',
+      'A large seasonal farm attraction with a pumpkin patch, corn maze, rides, animal encounters, and lots of foot traffic.',
     link: 'https://www.debucksfamilyfarm.com/',
   },
   {
@@ -100,11 +112,24 @@ export const pigEvents: PigEvent[] = [
     host: "Domino's Farms Petting Farm",
     city: 'Ann Arbor, MI',
     category: 'Open day',
+    source: 'website',
     recurringMonth: 4,
     recurringLabel: 'Open seasonally April through October',
     description:
-      'A long-running petting farm a short drive from Detroit with pigs, goats, and other farmyard animals.',
+      'A longtime animal outing destination with a broad farmyard feel and a short drive from Metro Detroit.',
     link: 'https://pettingfarm.com/',
+  },
+  {
+    name: 'Eastern Market Flower Day',
+    host: 'Eastern Market',
+    city: 'Detroit, MI',
+    category: 'Market',
+    source: 'manual-refresh',
+    recurringMonth: 5,
+    recurringLabel: 'One major Sunday in May',
+    description:
+      'A huge Detroit seasonal event with growers, plants, crowds, and a strong farm-and-market energy even though it is not a livestock event.',
+    link: 'https://easternmarket.org/',
   },
 ]
 

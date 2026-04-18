@@ -213,27 +213,27 @@ function App() {
         <section id="events" className="section">
           <div className="section-heading">
             <p className="section-kicker">Upcoming events</p>
-            <h2>Pig events around Metro Detroit</h2>
+            <h2>Farm events around Metro Detroit</h2>
             <p>
-              County fair swine shows, 4-H livestock competitions, and seasonal
-              farm events where pigs are part of the day. Past dates drop off
-              automatically, and recurring events roll forward to the next
-              occurrence. Always confirm exact dates on each event&rsquo;s site
-              before heading out.
+              County fairs, open farm days, harvest festivals, and other Metro
+              Detroit farm events. Past dates drop off automatically, and
+              recurring events roll forward to the next occurrence. Always
+              confirm exact dates on each event&rsquo;s site before heading out.
             </p>
             <p className="events-note">
               Facebook note: there is no reliable free anonymous general Facebook
-              events API I can safely plug in here, so this section currently uses
-              stable farm and fair sources instead of brittle scraping.
+              events API I can safely plug in here, so this section uses stable
+              source links and is ready for a daily refresh workflow instead of
+              brittle scraping.
             </p>
           </div>
 
           {upcomingEvents.length === 0 ? (
             <article className="info-card">
-              <h3>No events currently listed</h3>
+              <h3>No farm events currently listed</h3>
               <p>
-                Check back soon &mdash; new seasonal events and fair dates will
-                show up here as they&rsquo;re scheduled.
+                Check back soon, this feed is set up to support a broader Metro
+                Detroit farm-event refresh workflow.
               </p>
             </article>
           ) : (
@@ -256,6 +256,9 @@ function App() {
                       : event.recurringLabel ?? 'Recurring annually'}
                   </p>
                   <p>{event.description}</p>
+                  <p className="event-source">
+                    <strong>Source:</strong> {event.source}
+                  </p>
                   <a href={event.link} target="_blank" rel="noreferrer">
                     Visit website
                   </a>
