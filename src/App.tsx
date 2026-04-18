@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { pigFacts as fallbackPigFacts, type PigFact } from './pigFacts'
+import { pigBreeds } from './pigBreeds'
 
 type PigSpot = {
   name: string
@@ -114,6 +115,9 @@ function App() {
             <a href="#facts" className="button secondary">
               Read fun facts
             </a>
+            <a href="#breeds" className="button secondary">
+              Browse breeds
+            </a>
           </div>
         </div>
         <div className="hero-card">
@@ -187,6 +191,35 @@ function App() {
               <article className="fact-card" key={item.title}>
                 <h3>{item.title}</h3>
                 <p>{item.fact}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section id="breeds" className="section alt-section">
+          <div className="section-heading">
+            <p className="section-kicker">Pig breeds</p>
+            <h2>Different kinds of pigs you should know</h2>
+            <p>
+              Not every pig looks the same. Some are classic farm breeds, some are
+              known for their coat color or body shape, and some are popular because
+              they look extra cute in person.
+            </p>
+          </div>
+
+          <div className="facts-grid breeds-grid">
+            {pigBreeds.map((breed) => (
+              <article className="fact-card breed-card" key={breed.name}>
+                <h3>{breed.name}</h3>
+                <p>
+                  <strong>Origin:</strong> {breed.origin}
+                </p>
+                <p>
+                  <strong>Look:</strong> {breed.look}
+                </p>
+                <p>
+                  <strong>Known for:</strong> {breed.personality}
+                </p>
               </article>
             ))}
           </div>
