@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import { pigFacts as fallbackPigFacts, type PigFact } from './pigFacts'
 import { pigBreedGallery } from './pigBreedGallery'
+import { getUpcomingEvents } from './pigEvents'
 
 type PigSpot = {
   name: string
@@ -78,6 +79,8 @@ function App() {
   const [factsStatus, setFactsStatus] = useState<'loading' | 'live' | 'fallback'>(
     'loading',
   )
+  const [breedQuery, setBreedQuery] = useState('')
+  const [brokenImages, setBrokenImages] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     const loadFacts = async () => {
@@ -111,6 +114,27 @@ function App() {
 
   const featuredFacts = useMemo(() => pigFacts.slice(0, 6), [pigFacts])
 
+  const filteredBreeds = useMemo(() => {
+    const query = breedQuery.trim().toLowerCase()
+    if (!query) return pigBreedGallery
+    return pigBreedGallery.filter((breed) =>
+      [breed.name, breed.origin, breed.color].some((field) =>
+        field.toLowerCase().includes(query),
+      ),
+    )
+  }, [breedQuery])
+
+  const upcomingEvents = useMemo(() => getUpcomingEvents(), [])
+
+  const handleImageError = (name: string) => {
+    setBrokenImages((prev) => {
+      if (prev.has(name)) return prev
+      const next = new Set(prev)
+      next.add(name)
+      return next
+    })
+  }
+
   return (
     <div className="page-shell">
       <header className="hero">
@@ -124,6 +148,9 @@ function App() {
           <div className="hero-actions">
             <a href="#spots" className="button primary">
               Find pig spots
+            </a>
+            <a href="#events" className="button secondary">
+              See events
             </a>
             <a href="#facts" className="button secondary">
               Read fun facts
@@ -180,6 +207,56 @@ function App() {
           </div>
         </section>
 
+        <section id="events" className="section">
+          <div className="section-heading">
+            <p className="section-kicker">Upcoming events</p>
+            <h2>Pig events around Metro Detroit</h2>
+            <p>
+              County fair swine shows, 4-H livestock competitions, and seasonal
+              farm events where pigs are part of the day. Past dates drop off
+              automatically, and recurring events roll forward to the next
+              occurrence. Always confirm exact dates on each event&rsquo;s site
+              before heading out.
+            </p>
+          </div>
+
+          {upcomingEvents.length === 0 ? (
+            <article className="info-card">
+              <h3>No events currently listed</h3>
+              <p>
+                Check back soon &mdash; new seasonal events and fair dates will
+                show up here as they&rsquo;re scheduled.
+              </p>
+            </article>
+          ) : (
+            <div className="card-grid">
+              {upcomingEvents.map((event) => (
+                <article className="info-card" key={event.name}>
+                  <div className="card-topline">
+                    <span>{event.city}</span>
+                    <span className="pill">{event.category}</span>
+                  </div>
+                  <h3>{event.name}</h3>
+                  <p className="vibe">{event.host}</p>
+                  <p className="event-date">
+                    <strong>When:</strong>{' '}
+                    {event.nextDate
+                      ? new Date(`${event.nextDate}T00:00:00`).toLocaleDateString(
+                          undefined,
+                          { year: 'numeric', month: 'long', day: 'numeric' },
+                        )
+                      : event.recurringLabel ?? 'Recurring annually'}
+                  </p>
+                  <p>{event.description}</p>
+                  <a href={event.link} target="_blank" rel="noreferrer">
+                    Visit website
+                  </a>
+                </article>
+              ))}
+            </div>
+          )}
+        </section>
+
         <section id="facts" className="section alt-section">
           <div className="section-heading narrow">
             <p className="section-kicker">Pig facts</p>
@@ -214,29 +291,58 @@ function App() {
             <p className="section-kicker">Pig breeds</p>
             <h2>World pig breed gallery</h2>
             <p>
-              This section now behaves more like a dynamic gallery, showing a wider
-              set of pig breeds from around the world with photos when available.
-              I’m starting from a broad global list and pairing in Wikimedia-hosted
-              images for stable display.
+              A broader global list of pig breeds &mdash; browse the gallery or
+              use the search to filter by name, country, or color. Photos come
+              from Wikimedia Commons when available.
             </p>
+            <input
+              type="search"
+              className="breed-search"
+              value={breedQuery}
+              onChange={(e) => setBreedQuery(e.target.value)}
+              placeholder="Search breeds by name, origin, or color…"
+              aria-label="Search pig breeds"
+            />
           </div>
 
-          <div className="breed-gallery-grid">
-            {pigBreedGallery.map((breed) => (
-              <article className="breed-gallery-card" key={breed.name}>
-                <img src={breed.imageUrl} alt={breed.imageAlt} loading="lazy" />
-                <div className="breed-gallery-copy">
-                  <h3>{breed.name}</h3>
-                  <p>
-                    <strong>Origin:</strong> {breed.origin}
-                  </p>
-                  <p>
-                    <strong>Color:</strong> {breed.color}
-                  </p>
-                </div>
-              </article>
-            ))}
-          </div>
+          {filteredBreeds.length === 0 ? (
+            <p className="breed-empty">
+              No breeds match &ldquo;{breedQuery}&rdquo; &mdash; try a different
+              search.
+            </p>
+          ) : (
+            <div className="breed-gallery-grid">
+              {filteredBreeds.map((breed) => (
+                <article className="breed-gallery-card" key={breed.name}>
+                  {brokenImages.has(breed.name) ? (
+                    <div
+                      className="breed-gallery-placeholder"
+                      role="img"
+                      aria-label={`${breed.name} (photo unavailable)`}
+                    >
+                      <span aria-hidden="true">🐷</span>
+                    </div>
+                  ) : (
+                    <img
+                      src={breed.imageUrl}
+                      alt={breed.imageAlt}
+                      loading="lazy"
+                      onError={() => handleImageError(breed.name)}
+                    />
+                  )}
+                  <div className="breed-gallery-copy">
+                    <h3>{breed.name}</h3>
+                    <p>
+                      <strong>Origin:</strong> {breed.origin}
+                    </p>
+                    <p>
+                      <strong>Color:</strong> {breed.color}
+                    </p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          )}
         </section>
 
         <section className="section closing-note">
