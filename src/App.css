@@ -192,12 +192,31 @@
 }
 
 .event-date,
-.event-source {
+.event-source,
+.event-source-link {
   color: #7a3554;
 }
 
 .event-source {
   margin-top: 0.7rem;
+}
+
+.event-source-link a {
+  color: #cc2f78;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.events-meta-box {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #7a3554;
+}
+
+.events-meta-box p + p {
+  margin-top: 0.5rem;
 }
 
 .facts-source-line,

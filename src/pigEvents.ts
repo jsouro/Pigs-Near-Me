@@ -6,12 +6,16 @@ export type PigEventCategory =
   | 'Festival'
   | 'Market'
 
+export type PigEventSource = 'website' | 'facebook-check' | 'manual-refresh'
+
 export type PigEvent = {
   name: string
   host: string
   city: string
   category: PigEventCategory
-  source: 'website' | 'facebook-check' | 'manual-refresh'
+  source: PigEventSource
+  sourceLabel?: string
+  sourceLink?: string
   nextDate?: string
   recurringMonth?: number
   recurringLabel?: string
@@ -19,9 +23,21 @@ export type PigEvent = {
   link: string
 }
 
-// Metro Detroit farm events, broader than pig-only activities.
-// These are intentionally structured so a daily refresh workflow can replace
-// dates or add entries without rewriting the page logic.
+export type EventFeedMeta = {
+  strategy: 'manual-facebook-refresh'
+  coverage: string
+  refreshedAt: string
+  notes: string
+}
+
+export const eventFeedMeta: EventFeedMeta = {
+  strategy: 'manual-facebook-refresh',
+  coverage: 'Metro Detroit farm events',
+  refreshedAt: '2026-04-18T18:57:00-04:00',
+  notes:
+    'Prepared for a once-daily cron or scheduled run that checks public Facebook events and official farm sites, then updates this file.',
+}
+
 export const pigEvents: PigEvent[] = [
   {
     name: 'Oakland County Fair',
@@ -29,6 +45,8 @@ export const pigEvents: PigEvent[] = [
     city: 'Davisburg, MI',
     category: 'Fair',
     source: 'website',
+    sourceLabel: 'Official website',
+    sourceLink: 'https://www.oakfair.org/',
     recurringMonth: 7,
     recurringLabel: 'Early July, annually',
     description:
@@ -41,6 +59,8 @@ export const pigEvents: PigEvent[] = [
     city: 'Armada, MI',
     category: 'Fair',
     source: 'website',
+    sourceLabel: 'Official website',
+    sourceLink: 'https://www.armadafair.org/',
     recurringMonth: 8,
     recurringLabel: 'Mid-August, annually',
     description:
@@ -53,6 +73,8 @@ export const pigEvents: PigEvent[] = [
     city: 'Novi, MI',
     category: 'Fair',
     source: 'website',
+    sourceLabel: 'Official website',
+    sourceLink: 'https://www.michiganstatefairllc.com/',
     recurringMonth: 8,
     recurringLabel: 'Labor Day weekend',
     description:
@@ -64,7 +86,9 @@ export const pigEvents: PigEvent[] = [
     host: 'Maybury Farm',
     city: 'Northville, MI',
     category: 'Festival',
-    source: 'website',
+    source: 'facebook-check',
+    sourceLabel: 'Farm Facebook or official site',
+    sourceLink: 'https://mayburyfarm.org/',
     recurringMonth: 10,
     recurringLabel: 'Weekends in October',
     description:
@@ -76,7 +100,9 @@ export const pigEvents: PigEvent[] = [
     host: 'Maybury Farm',
     city: 'Northville, MI',
     category: 'Farm event',
-    source: 'website',
+    source: 'facebook-check',
+    sourceLabel: 'Farm Facebook or official site',
+    sourceLink: 'https://mayburyfarm.org/',
     recurringMonth: 3,
     recurringLabel: 'A Saturday in March',
     description:
@@ -88,7 +114,9 @@ export const pigEvents: PigEvent[] = [
     host: 'Upland Hills Farm',
     city: 'Oxford, MI',
     category: 'Open day',
-    source: 'website',
+    source: 'facebook-check',
+    sourceLabel: 'Farm Facebook or official site',
+    sourceLink: 'https://www.uplandhillsfarm.com/',
     recurringMonth: 5,
     recurringLabel: 'Select weekends, spring through fall',
     description:
@@ -100,7 +128,9 @@ export const pigEvents: PigEvent[] = [
     host: "DeBuck's Family Farm",
     city: 'Belleville, MI',
     category: 'Festival',
-    source: 'website',
+    source: 'facebook-check',
+    sourceLabel: 'Farm Facebook or official site',
+    sourceLink: 'https://www.debucksfamilyfarm.com/',
     recurringMonth: 9,
     recurringLabel: 'September through October',
     description:
@@ -112,7 +142,9 @@ export const pigEvents: PigEvent[] = [
     host: "Domino's Farms Petting Farm",
     city: 'Ann Arbor, MI',
     category: 'Open day',
-    source: 'website',
+    source: 'facebook-check',
+    sourceLabel: 'Farm Facebook or official site',
+    sourceLink: 'https://pettingfarm.com/',
     recurringMonth: 4,
     recurringLabel: 'Open seasonally April through October',
     description:
@@ -125,6 +157,8 @@ export const pigEvents: PigEvent[] = [
     city: 'Detroit, MI',
     category: 'Market',
     source: 'manual-refresh',
+    sourceLabel: 'Manual refresh source',
+    sourceLink: 'https://easternmarket.org/',
     recurringMonth: 5,
     recurringLabel: 'One major Sunday in May',
     description:

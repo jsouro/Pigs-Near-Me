@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import { pigFacts as fallbackPigFacts, type PigFact } from './pigFacts'
 import { pigBreedGallery } from './pigBreedGallery'
-import { getUpcomingEvents } from './pigEvents'
+import { eventFeedMeta, getUpcomingEvents } from './pigEvents'
 
 type PigSpot = {
   name: string
@@ -222,10 +222,22 @@ function App() {
             </p>
             <p className="events-note">
               Facebook note: there is no reliable free anonymous general Facebook
-              events API I can safely plug in here, so this section uses stable
-              source links and is ready for a daily refresh workflow instead of
+              events API I can safely plug in here, so this section is prepared
+              for a once-daily Facebook-plus-website refresh workflow instead of
               brittle scraping.
             </p>
+            <div className="events-meta-box">
+              <p>
+                <strong>Refresh strategy:</strong> {eventFeedMeta.strategy}
+              </p>
+              <p>
+                <strong>Coverage:</strong> {eventFeedMeta.coverage}
+              </p>
+              <p>
+                <strong>Last prepared update:</strong>{' '}
+                {new Date(eventFeedMeta.refreshedAt).toLocaleString()}
+              </p>
+            </div>
           </div>
 
           {upcomingEvents.length === 0 ? (
@@ -257,8 +269,15 @@ function App() {
                   </p>
                   <p>{event.description}</p>
                   <p className="event-source">
-                    <strong>Source:</strong> {event.source}
+                    <strong>Source:</strong> {event.sourceLabel ?? event.source}
                   </p>
+                  {event.sourceLink ? (
+                    <p className="event-source-link">
+                      <a href={event.sourceLink} target="_blank" rel="noreferrer">
+                        View source link
+                      </a>
+                    </p>
+                  ) : null}
                   <a href={event.link} target="_blank" rel="noreferrer">
                     Visit website
                   </a>

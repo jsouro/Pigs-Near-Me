@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Pigs Near Me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pink, playful Metro Detroit farm outing site built for Kennedy.
 
-Currently, two official plugins are available:
+Live site:
+- https://jsouro.github.io/Pigs-Near-Me/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- React
+- TypeScript
+- Vite
+- GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Current features
 
-## Expanding the ESLint configuration
+- Metro Detroit farm outing suggestions
+- Refresh-randomized pig facts
+- World pig breed gallery with working photos only
+- Metro Detroit farm events section
+- Event source labels and source links
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Farm event refresh workflow
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The site is prepared for a once-daily refresh workflow that can check public Facebook events and official farm websites, then update `src/pigEvents.ts`.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Files involved
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- `src/pigEvents.ts`
+  - stores the event list
+  - stores `eventFeedMeta`, including refresh strategy and timestamp
+- `scripts/refresh_farm_events_template.mjs`
+  - scaffold for your future cron-driven refresh logic
+
+### Run the scaffold
+
+```bash
+npm run refresh:farm-events
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### What your cron job should eventually do
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Open public Facebook event listings and official farm websites.
+2. Find Metro Detroit farm events.
+3. Add missing events with:
+   - `name`
+   - `host`
+   - `city`
+   - `category`
+   - `source`
+   - `sourceLabel`
+   - `sourceLink`
+   - `nextDate` or recurring timing
+   - `description`
+   - `link`
+4. Update `eventFeedMeta.refreshedAt`.
+5. Commit and push the refreshed file.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Notes
+
+- There is no clean free anonymous Facebook events API for the general feed.
+- The intended model here is a maintained once-daily refresh, not a direct live feed.
+- For production quality, consider moving event data into a JSON file that your refresh job rewrites directly.
