@@ -115,14 +115,17 @@ function App() {
   const featuredFacts = useMemo(() => pigFacts.slice(0, 6), [pigFacts])
 
   const filteredBreeds = useMemo(() => {
+    const breedsWithPhotos = pigBreedGallery.filter(
+      (breed) => !brokenImages.has(breed.name),
+    )
     const query = breedQuery.trim().toLowerCase()
-    if (!query) return pigBreedGallery
-    return pigBreedGallery.filter((breed) =>
+    if (!query) return breedsWithPhotos
+    return breedsWithPhotos.filter((breed) =>
       [breed.name, breed.origin, breed.color].some((field) =>
         field.toLowerCase().includes(query),
       ),
     )
-  }, [breedQuery])
+  }, [breedQuery, brokenImages])
 
   const upcomingEvents = useMemo(() => getUpcomingEvents(), [])
 
@@ -218,6 +221,11 @@ function App() {
               occurrence. Always confirm exact dates on each event&rsquo;s site
               before heading out.
             </p>
+            <p className="events-note">
+              Facebook note: there is no reliable free anonymous general Facebook
+              events API I can safely plug in here, so this section currently uses
+              stable farm and fair sources instead of brittle scraping.
+            </p>
           </div>
 
           {upcomingEvents.length === 0 ? (
@@ -307,29 +315,20 @@ function App() {
 
           {filteredBreeds.length === 0 ? (
             <p className="breed-empty">
-              No breeds match &ldquo;{breedQuery}&rdquo; &mdash; try a different
-              search.
+              {breedQuery
+                ? `No photographed breeds match “${breedQuery}”. Try a different search.`
+                : 'No photographed breeds are available right now.'}
             </p>
           ) : (
             <div className="breed-gallery-grid">
               {filteredBreeds.map((breed) => (
                 <article className="breed-gallery-card" key={breed.name}>
-                  {brokenImages.has(breed.name) ? (
-                    <div
-                      className="breed-gallery-placeholder"
-                      role="img"
-                      aria-label={`${breed.name} (photo unavailable)`}
-                    >
-                      <span aria-hidden="true">🐷</span>
-                    </div>
-                  ) : (
-                    <img
-                      src={breed.imageUrl}
-                      alt={breed.imageAlt}
-                      loading="lazy"
-                      onError={() => handleImageError(breed.name)}
-                    />
-                  )}
+                  <img
+                    src={breed.imageUrl}
+                    alt={breed.imageAlt}
+                    loading="lazy"
+                    onError={() => handleImageError(breed.name)}
+                  />
                   <div className="breed-gallery-copy">
                     <h3>{breed.name}</h3>
                     <p>

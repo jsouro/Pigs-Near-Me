@@ -196,7 +196,8 @@
 }
 
 .facts-source-line,
-.facts-source-note {
+.facts-source-note,
+.events-note {
   color: #8c4565;
 }
 
@@ -267,6 +268,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 0.7rem;
   color: #5a1939;
+}
+
+.events-note {
+  margin-top: 0.75rem;
 }
 
 .breed-card p + p {
