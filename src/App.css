@@ -148,6 +148,53 @@
   text-align: left;
 }
 
+.breed-gallery-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, #ffe6ef 0%, #ffd4e5 100%);
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.breed-search {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 1rem;
+  padding: 0.75rem 1.1rem;
+  border: 1px solid rgba(173, 64, 109, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: #5a1939;
+  font: inherit;
+  box-shadow: 0 6px 20px rgba(173, 64, 109, 0.08);
+}
+
+.breed-search::placeholder {
+  color: #a6648a;
+}
+
+.breed-search:focus {
+  outline: none;
+  border-color: #e75292;
+  box-shadow: 0 6px 20px rgba(231, 82, 146, 0.18);
+}
+
+.breed-empty {
+  padding: 1.25rem;
+  color: #8c4565;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+}
+
+.event-date {
+  color: #7a3554;
+}
+
 .facts-source-line,
 .facts-source-note {
   color: #8c4565;

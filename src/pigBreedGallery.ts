@@ -6,86 +6,277 @@ export type PigBreedPhoto = {
   imageAlt: string
 }
 
-// Seeded from broad public pig breed listings and Wikimedia-hosted media where available.
+const commons = (filename: string) =>
+  `https://commons.wikimedia.org/wiki/Special:FilePath/${filename}?width=800`
+
+// Sourced from Wikipedia's "List of pig breeds" and linked breed articles.
+// Each entry points at a Wikimedia Commons-hosted photo. Images that fail to
+// load are replaced at runtime with a placeholder card (see App.tsx).
 export const pigBreedGallery: PigBreedPhoto[] = [
   {
     name: 'American Yorkshire',
     origin: 'United States',
     color: 'White',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Yorkshire%20pigs%20at%20animal%20sanctuary.jpg?width=800',
+    imageUrl: commons('Yorkshire%20pigs%20at%20animal%20sanctuary.jpg'),
     imageAlt: 'American Yorkshire pigs',
   },
   {
     name: 'Angeln Saddleback',
     origin: 'Germany',
     color: 'Black and white',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Angeln%20Saddleback%20%28aka%29.jpg?width=800',
+    imageUrl: commons('Angeln%20Saddleback%20%28aka%29.jpg'),
     imageAlt: 'Angeln Saddleback pig',
+  },
+  {
+    name: 'Bazna',
+    origin: 'Romania',
+    color: 'Black with a white belt',
+    imageUrl: commons('Porc%20de%20Bazna.jpg'),
+    imageAlt: 'Bazna pig',
+  },
+  {
+    name: 'Bentheim Black Pied',
+    origin: 'Germany',
+    color: 'White with black spots',
+    imageUrl: commons('Tiergarten%20N%C3%BCrnberg%20-%2032.JPG'),
+    imageAlt: 'Bentheim Black Pied pig',
+  },
+  {
+    name: 'Berkshire',
+    origin: 'United Kingdom',
+    color: 'Black with white points',
+    imageUrl: commons('Berkshire%20pig.jpg'),
+    imageAlt: 'Berkshire pig',
   },
   {
     name: 'Bisaro',
     origin: 'Portugal',
     color: 'Black and white',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Porco_b%C3%ADsaro.jpg?width=800',
+    imageUrl: commons('Porco_b%C3%ADsaro.jpg'),
     imageAlt: 'Bisaro pig',
+  },
+  {
+    name: 'British Saddleback',
+    origin: 'United Kingdom',
+    color: 'Black with a white belt',
+    imageUrl: commons('British%20saddleback%20pigs.jpg'),
+    imageAlt: 'British Saddleback pig',
+  },
+  {
+    name: 'Casertana',
+    origin: 'Italy',
+    color: 'Black, mostly hairless',
+    imageUrl: commons('Suino%20Nero%20Casertano.jpg'),
+    imageAlt: 'Casertana pig',
+  },
+  {
+    name: 'Chester White',
+    origin: 'United States',
+    color: 'White',
+    imageUrl: commons('Chester%20White%20boar.jpg'),
+    imageAlt: 'Chester White boar',
+  },
+  {
+    name: 'Choctaw hog',
+    origin: 'United States',
+    color: 'Black',
+    imageUrl: commons('Choctaw%20hog.jpg'),
+    imageAlt: 'Choctaw hog',
+  },
+  {
+    name: 'Duroc',
+    origin: 'United States',
+    color: 'Red',
+    imageUrl: commons('Duroc%20pig.jpg'),
+    imageAlt: 'Duroc pig',
+  },
+  {
+    name: 'German Landrace',
+    origin: 'Germany',
+    color: 'White',
+    imageUrl: commons('SF-Eber.jpg'),
+    imageAlt: 'German Landrace boar',
+  },
+  {
+    name: 'Gloucestershire Old Spots',
+    origin: 'United Kingdom',
+    color: 'White with black spots',
+    imageUrl: commons('Gloucestershire%20Old%20Spots%20pigs.jpg'),
+    imageAlt: 'Gloucestershire Old Spots pig',
   },
   {
     name: 'Göttingen minipig',
     origin: 'Germany',
     color: 'White',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%B6ttingen%20Minipig.jpg?width=800',
+    imageUrl: commons('G%C3%B6ttingen%20Minipig.jpg'),
     imageAlt: 'Göttingen minipig',
+  },
+  {
+    name: 'Guinea hog',
+    origin: 'United States',
+    color: 'Black',
+    imageUrl: commons('American%20Guinea%20Hog%201.jpg'),
+    imageAlt: 'American Guinea hog',
+  },
+  {
+    name: 'Hampshire',
+    origin: 'United States',
+    color: 'Black with a white belt',
+    imageUrl: commons('Hampshire%20pig.jpg'),
+    imageAlt: 'Hampshire pig',
+  },
+  {
+    name: 'Hereford',
+    origin: 'United States',
+    color: 'Red with a white face',
+    imageUrl: commons('Hereford%20pig.jpg'),
+    imageAlt: 'Hereford pig',
+  },
+  {
+    name: 'Husumer (Danish Protest)',
+    origin: 'Germany',
+    color: 'Red and white',
+    imageUrl: commons('Husumer%20Protest%20Eberferkel.JPG'),
+    imageAlt: 'Husumer Protest piglet',
+  },
+  {
+    name: 'Iberian',
+    origin: 'Spain',
+    color: 'Black',
+    imageUrl: commons('Cerdo%20ib%C3%A9rico.JPG'),
+    imageAlt: 'Iberian pig',
   },
   {
     name: 'Kunekune',
     origin: 'New Zealand',
     color: 'Multicolored',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Kunekune%20Pig%20at%20Hamilton%20Zoo.jpg?width=800',
+    imageUrl: commons('Kunekune%20Pig%20at%20Hamilton%20Zoo.jpg'),
     imageAlt: 'Kunekune pig',
   },
   {
-    name: 'Nero Siciliano',
-    origin: 'Italy, Sicily',
+    name: 'Large Black',
+    origin: 'United Kingdom',
     color: 'Black',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Capizzi%20scrofa%200001.jpg?width=800',
+    imageUrl: commons('Large%20Black%20Pig.jpg'),
+    imageAlt: 'Large Black pig',
+  },
+  {
+    name: 'Large White',
+    origin: 'United Kingdom',
+    color: 'White',
+    imageUrl: commons('Large%20White%20Pig.jpg'),
+    imageAlt: 'Large White pig',
+  },
+  {
+    name: 'Mangalitsa',
+    origin: 'Hungary',
+    color: 'Curly coat; blond, red, or swallow-bellied',
+    imageUrl: commons('Mangalica%20%28Schwein%29.jpg'),
+    imageAlt: 'Mangalitsa pig',
+  },
+  {
+    name: 'Meishan',
+    origin: 'China',
+    color: 'Black, wrinkled skin',
+    imageUrl: commons('Meishan%20Pig.jpg'),
+    imageAlt: 'Meishan pig',
+  },
+  {
+    name: 'Middle White',
+    origin: 'United Kingdom',
+    color: 'White',
+    imageUrl: commons('Middle%20White.JPG'),
+    imageAlt: 'Middle White pig',
+  },
+  {
+    name: 'Mora Romagnola',
+    origin: 'Italy',
+    color: 'Dark brown to black',
+    imageUrl: commons('Mora%20Romagnola.jpg'),
+    imageAlt: 'Mora Romagnola pig',
+  },
+  {
+    name: 'Mulefoot',
+    origin: 'United States',
+    color: 'Black',
+    imageUrl: commons('Mulefoot%20hog.jpg'),
+    imageAlt: 'Mulefoot hog',
+  },
+  {
+    name: 'Nero Siciliano',
+    origin: 'Italy (Sicily)',
+    color: 'Black',
+    imageUrl: commons('Capizzi%20scrofa%200001.jpg'),
     imageAlt: 'Nero Siciliano pig',
   },
   {
     name: 'Ossabaw Island hog',
     origin: 'Ossabaw Island, United States',
-    color: 'Spotted and varied',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Ossabaw%20Island%20Hog.jpg?width=800',
+    color: 'Spotted, varied',
+    imageUrl: commons('Ossabaw%20Island%20Hog.jpg'),
     imageAlt: 'Ossabaw Island hog',
+  },
+  {
+    name: 'Oxford Sandy and Black',
+    origin: 'United Kingdom',
+    color: 'Sandy with black blotches',
+    imageUrl: commons('Oxford%20Sandy%20and%20Black%20pig.jpg'),
+    imageAlt: 'Oxford Sandy and Black pig',
+  },
+  {
+    name: 'Piétrain',
+    origin: 'Belgium',
+    color: 'White with black spots',
+    imageUrl: commons('Pietrain.jpg'),
+    imageAlt: 'Piétrain pig',
+  },
+  {
+    name: 'Poland China',
+    origin: 'United States',
+    color: 'Black with white points',
+    imageUrl: commons('Poland%20China%20pig.jpg'),
+    imageAlt: 'Poland China pig',
   },
   {
     name: 'Red Wattle hog',
     origin: 'United States',
     color: 'Red',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Wattle%20pig.jpg?width=800',
+    imageUrl: commons('Red%20Wattle%20pig.jpg'),
     imageAlt: 'Red Wattle hog',
+  },
+  {
+    name: 'Sushan',
+    origin: 'China',
+    color: 'White',
+    imageUrl: commons('Yunnan%20pigsty%203.JPG'),
+    imageAlt: 'Sushan pig',
   },
   {
     name: 'Tamworth',
     origin: 'United Kingdom',
     color: 'Red',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Mudchute%20farm%20pig%20side.jpg?width=800',
+    imageUrl: commons('Mudchute%20farm%20pig%20side.jpg'),
     imageAlt: 'Tamworth pig',
+  },
+  {
+    name: 'Turopolje',
+    origin: 'Croatia',
+    color: 'Light gray with dark spots',
+    imageUrl: commons('Turopolje%20pig.jpg'),
+    imageAlt: 'Turopolje pig',
   },
   {
     name: 'Vietnamese Pot-Bellied',
     origin: 'Vietnam',
-    color: 'Black or black and white',
-    imageUrl:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Sus%20scrofa%20domestica.jpg?width=800',
+    color: 'Black, or black and white',
+    imageUrl: commons('Sus%20scrofa%20domestica.jpg'),
     imageAlt: 'Vietnamese pot-bellied pig',
+  },
+  {
+    name: 'Welsh',
+    origin: 'Wales, United Kingdom',
+    color: 'White',
+    imageUrl: commons('Welsh%20pig.jpg'),
+    imageAlt: 'Welsh pig',
   },
 ]
