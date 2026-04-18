@@ -118,6 +118,21 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.facts-source-line,
+.facts-source-note {
+  color: #8c4565;
+}
+
+.facts-source-line {
+  margin-bottom: 0.5rem;
+}
+
+.facts-source-note a {
+  color: #cc2f78;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .info-card,
 .fact-card,
 .closing-note {
