@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-04-19T04:18:00.000Z",
+  "lastUpdated": "2026-04-19T13:00:00.000Z",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
       "date": "2026-04-17 to 2026-04-26",
       "time": "Wed-Fri 12:00 PM-8:00 PM, Sat-Sun 10:00 AM-8:00 PM",
       "location": "DeBuck's Family Farm, 50240 Martz Road, Belleville, MI 48111",
-      "description": "DeBuck's official 2026 tulip festival page lists April 17-26 hours, 10 acres of tulips, rides, photo ops, and food. Facebook was publicly reachable only enough to recover the event URL and title, not a current 2026 event body.",
+      "description": "Public Facebook access was limited during this check, but the event page remained publicly reachable enough to recover the event title and URL. DeBuck's current festival materials list April 17-26 hours, 10 acres of tulips, rides, photo ops, and food.",
       "url": "https://www.facebook.com/events/50240-martz-rd-belleville-mi-united-states-michigan-48111/debucks-tulip-festival/1660534224695789/"
     },
     {
@@ -14,7 +14,7 @@
       "date": "2026-04-25 to mid-May 2026",
       "time": "Mon-Thu rides start 11:00 AM and run until 4:00 PM, Fri-Sun rides start 8:00 AM and run until 5:00 PM",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Blake Farms' In Bloom page says the tulip festival begins April 25 and runs into mid-May with 200,000+ tulips, train rides to the fields, seasonal drinks, and orchard photo spots. A matching public Facebook event URL was not recoverable from this environment, so this entry is based on the official event page.",
+      "description": "I could not recover a current public Facebook event URL from this environment during the check. Blake Farms' current event materials list the 2026 tulip festival starting April 25 with train rides to the fields, seasonal drinks, and orchard photo spots.",
       "url": "https://blakefarms.com/blakes-in-bloom/"
     },
     {
@@ -22,7 +22,7 @@
       "date": "2026-04-26",
       "time": "See event page for ticketed time slots",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Blake Farms lists a spring orchard walk with live music, treats, dog-friendly activities, and a donation tie-in for Leader Dogs for the Blind. Facebook was publicly reachable enough to recover the event title and URL, but detailed current scheduling remained limited.",
+      "description": "Public Facebook access was limited, but the matching event page remained reachable enough to recover the title and URL. Blake Farms lists live music, dog-friendly activities, and a donation tie-in for Leader Dogs for the Blind.",
       "url": "https://www.facebook.com/events/17985-armada-center-road-armada-mi-united-states-michigan-48005/blakes-x-leader-dogs-for-the-blind-dog-dayze/2053174898802719/"
     },
     {
@@ -30,7 +30,7 @@
       "date": "2026-04-30",
       "time": "6:00 PM",
       "location": "Blake's Tasting Room, Armada, MI",
-      "description": "Blake Farms' official event page advertises a four-course cider pairing dinner with seasonal ingredients and guided pairings. A matching public Facebook event URL was not recoverable from this environment, so this entry is based on the official event page.",
+      "description": "I could not recover a current public Facebook event URL from this environment during the check. Blake Farms' event materials advertise a four-course cider pairing dinner with seasonal ingredients and guided pairings.",
       "url": "https://blakefarms.com/event/farm-to-glass-experience/"
     }
   ]
