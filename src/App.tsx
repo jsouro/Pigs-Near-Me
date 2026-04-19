@@ -22,10 +22,13 @@ type FarmEvent = {
   location: string
   description: string
   url: string
+  sourceType?: 'facebook' | 'google'
+  sourceLabel?: string
 }
 
 type EventFeed = {
   lastUpdated: string
+  refreshNotes?: string
   events: FarmEvent[]
 }
 
@@ -186,13 +189,14 @@ function App() {
         <section id="events" className="section alt-section">
           <div className="section-heading">
             <p className="section-kicker">Upcoming farm events</p>
-            <h2>Public Facebook event finds for Metro Detroit</h2>
+            <h2>Farm event finds for Metro Detroit</h2>
             <p>
-              Refreshed from the repo JSON feed. If Facebook blocks direct event
-              views, the list falls back to what is publicly visible from search
-              results and official farm pages.
+              Refreshed from the repo JSON feed. This can combine public
+              Facebook event discovery with Google-search-found official event
+              pages when Facebook visibility is limited.
             </p>
             {refreshedLabel ? <p className="meta-line">Last updated {refreshedLabel}</p> : null}
+            {eventFeed?.refreshNotes ? <p className="meta-line">{eventFeed.refreshNotes}</p> : null}
           </div>
 
           {eventError ? (
@@ -208,14 +212,16 @@ function App() {
                 <article className="info-card" key={`${eventItem.name}-${eventItem.date}`}>
                   <div className="card-topline">
                     <span>{eventItem.date}</span>
-                    <span className="pill">Facebook event</span>
+                    <span className="pill">{eventItem.sourceLabel ?? 'Event link'}</span>
                   </div>
                   <h3>{eventItem.name}</h3>
                   <p className="vibe">{eventItem.time}</p>
                   <p><strong>Location:</strong> {eventItem.location}</p>
                   <p>{eventItem.description}</p>
                   <a href={eventItem.url} target="_blank" rel="noreferrer">
-                    Open Facebook event
+                    {eventItem.sourceType === 'google'
+                      ? 'Open event page'
+                      : 'Open Facebook event'}
                   </a>
                 </article>
               ))}
