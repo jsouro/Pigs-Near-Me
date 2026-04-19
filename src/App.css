@@ -105,134 +105,19 @@
 }
 
 .card-grid,
+.event-grid,
 .facts-grid {
   display: grid;
   gap: 1.25rem;
 }
 
-.card-grid {
+.card-grid,
+.event-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .facts-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.breeds-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.breed-gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-}
-
-.breed-gallery-card {
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.88);
-  border-radius: 28px;
-  box-shadow: 0 20px 60px rgba(173, 64, 109, 0.12);
-}
-
-.breed-gallery-card img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  background: #ffe6ef;
-}
-
-.breed-gallery-copy {
-  padding: 1.1rem 1.2rem 1.3rem;
-  text-align: left;
-}
-
-.breed-gallery-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background: linear-gradient(135deg, #ffe6ef 0%, #ffd4e5 100%);
-  font-size: 3.5rem;
-  line-height: 1;
-}
-
-.breed-search {
-  display: block;
-  width: 100%;
-  max-width: 420px;
-  margin-top: 1rem;
-  padding: 0.75rem 1.1rem;
-  border: 1px solid rgba(173, 64, 109, 0.18);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.82);
-  color: #5a1939;
-  font: inherit;
-  box-shadow: 0 6px 20px rgba(173, 64, 109, 0.08);
-}
-
-.breed-search::placeholder {
-  color: #a6648a;
-}
-
-.breed-search:focus {
-  outline: none;
-  border-color: #e75292;
-  box-shadow: 0 6px 20px rgba(231, 82, 146, 0.18);
-}
-
-.breed-empty {
-  padding: 1.25rem;
-  color: #8c4565;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 18px;
-}
-
-.event-date,
-.event-source,
-.event-source-link {
-  color: #7a3554;
-}
-
-.event-source {
-  margin-top: 0.7rem;
-}
-
-.event-source-link a {
-  color: #cc2f78;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.events-meta-box {
-  margin-top: 1rem;
-  padding: 1rem 1.1rem;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-  color: #7a3554;
-}
-
-.events-meta-box p + p {
-  margin-top: 0.5rem;
-}
-
-.facts-source-line,
-.facts-source-note,
-.events-note {
-  color: #8c4565;
-}
-
-.facts-source-line {
-  margin-bottom: 0.5rem;
-}
-
-.facts-source-note a {
-  color: #cc2f78;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .info-card,
@@ -284,6 +169,11 @@
   padding-top: 0.5rem;
 }
 
+.meta-line {
+  color: #8b2f5b;
+  font-weight: 600;
+}
+
 .closing-note {
   margin-bottom: 3rem;
 }
@@ -294,14 +184,6 @@ h3 {
   color: #5a1939;
 }
 
-.events-note {
-  margin-top: 0.75rem;
-}
-
-.breed-card p + p {
-  margin-top: 0.7rem;
-}
-
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
@@ -309,8 +191,8 @@ h3 {
   }
 
   .card-grid,
-  .facts-grid,
-  .breed-gallery-grid {
+  .event-grid,
+  .facts-grid {
     grid-template-columns: 1fr;
   }
 }
