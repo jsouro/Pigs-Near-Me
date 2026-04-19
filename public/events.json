@@ -1,43 +1,33 @@
 {
-  "lastUpdated": "2026-04-19T13:00:00.000Z",
-  "refreshNotes": "Prepared to combine public Facebook event discovery with Google-search-discovered Metro Detroit farm events.",
+  "lastUpdated": "2026-04-19T19:05:00.000Z",
+  "refreshNotes": "Checked public Facebook event URLs, Google-discovered results, and official farm event pages on April 19, 2026. Facebook event pages were unreliable from this environment today, so this refresh favored currently verifiable official event pages and removed listings that could not be reconfirmed.",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
       "date": "2026-04-17 to 2026-04-26",
       "time": "Wed-Fri 12:00 PM-8:00 PM, Sat-Sun 10:00 AM-8:00 PM",
       "location": "DeBuck's Family Farm, 50240 Martz Road, Belleville, MI 48111",
-      "description": "Public Facebook access was limited during this check, but the event page remained publicly reachable enough to recover the event title and URL. DeBuck's current festival materials list April 17-26 hours, 10 acres of tulips, rides, photo ops, and food.",
-      "url": "https://www.facebook.com/events/50240-martz-rd-belleville-mi-united-states-michigan-48111/debucks-tulip-festival/1660534224695789/",
-      "sourceType": "facebook",
-      "sourceLabel": "Public Facebook event"
-    },
-    {
-      "name": "Blake's 2nd Annual Tulip Festival",
-      "date": "2026-04-25 to mid-May 2026",
-      "time": "Mon-Thu rides start 11:00 AM and run until 4:00 PM, Fri-Sun rides start 8:00 AM and run until 5:00 PM",
-      "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "I could not recover a current public Facebook event URL from this environment during the check. Blake Farms' current event materials list the 2026 tulip festival starting April 25 with train rides to the fields, seasonal drinks, and orchard photo spots.",
-      "url": "https://blakefarms.com/blakes-in-bloom/",
+      "description": "Verified on DeBuck's official site during this refresh. The farm is promoting its April 17 to 26 tulip festival as Metro Detroit's largest, with spring attractions, food, and photo-friendly bloom fields.",
+      "url": "https://www.debucksfamilyfarm.com/",
       "sourceType": "google",
       "sourceLabel": "Google-discovered official event page"
     },
     {
-      "name": "Dog Dayze: An Orchard Walk in Spring",
-      "date": "2026-04-26",
-      "time": "See event page for ticketed time slots",
+      "name": "Blake's 2nd Annual Tulip Festival",
+      "date": "2026-04-25 to mid-May 2026",
+      "time": "Mon-Thu train rides start 11:00 AM and run until 4:00 PM, Fri-Sun train rides start 8:00 AM and run until 5:00 PM",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Public Facebook access was limited, but the matching event page remained reachable enough to recover the title and URL. Blake Farms lists live music, dog-friendly activities, and a donation tie-in for Leader Dogs for the Blind.",
-      "url": "https://www.facebook.com/events/17985-armada-center-road-armada-mi-united-states-michigan-48005/blakes-x-leader-dogs-for-the-blind-dog-dayze/2053174898802719/",
-      "sourceType": "facebook",
-      "sourceLabel": "Public Facebook event"
+      "description": "Verified on Blake Farms' official Blake's In Bloom page during this refresh. The 2026 tulip festival is advertised as opening April 25 with more than 200,000 tulips, orchard trail experiences, and rides out to the fields.",
+      "url": "https://blakefarms.com/blakes-in-bloom/",
+      "sourceType": "google",
+      "sourceLabel": "Google-discovered official event page"
     },
     {
       "name": "Farm to Glass Experience",
       "date": "2026-04-30",
       "time": "6:00 PM",
       "location": "Blake's Tasting Room, Armada, MI",
-      "description": "I could not recover a current public Facebook event URL from this environment during the check. Blake Farms' event materials advertise a four-course cider pairing dinner with seasonal ingredients and guided pairings.",
+      "description": "Verified on Blake Farms' official event page during this refresh. The ticketed evening features four chef-crafted courses paired with Blake's hard ciders in a relaxed spring dining format.",
       "url": "https://blakefarms.com/event/farm-to-glass-experience/",
       "sourceType": "google",
       "sourceLabel": "Google-discovered official event page"
