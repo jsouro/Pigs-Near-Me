@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-19T19:05:00.000Z",
-  "refreshNotes": "Checked public Facebook event URLs, Google-discovered results, and official farm event pages on April 19, 2026. Facebook event pages were unreliable from this environment today, so this refresh favored currently verifiable official event pages and removed listings that could not be reconfirmed.",
+  "lastUpdated": "2026-04-19T19:35:00.000Z",
+  "refreshNotes": "Checked public Facebook event listings, Google-discovered results, and official farm event pages on April 19, 2026. Facebook event pages were not directly readable from this environment during this run, so the refresh favors currently verifiable official event pages and official event listings.",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
@@ -15,7 +15,7 @@
     {
       "name": "Blake's 2nd Annual Tulip Festival",
       "date": "2026-04-25 to mid-May 2026",
-      "time": "Mon-Thu train rides start 11:00 AM and run until 4:00 PM, Fri-Sun train rides start 8:00 AM and run until 5:00 PM",
+      "time": "Mon-Thu train rides 11:00 AM-4:00 PM, Fri-Sun train rides 8:00 AM-5:00 PM",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
       "description": "Verified on Blake Farms' official Blake's In Bloom page during this refresh. The 2026 tulip festival is advertised as opening April 25 with more than 200,000 tulips, orchard trail experiences, and rides out to the fields.",
       "url": "https://blakefarms.com/blakes-in-bloom/",
@@ -27,8 +27,48 @@
       "date": "2026-04-30",
       "time": "6:00 PM",
       "location": "Blake's Tasting Room, Armada, MI",
-      "description": "Verified on Blake Farms' official event page during this refresh. The ticketed evening features four chef-crafted courses paired with Blake's hard ciders in a relaxed spring dining format.",
+      "description": "Verified on Blake Farms' official event page during this refresh. The ticketed evening features four chef-crafted courses paired with Blake's hard cider and seasonal ingredients.",
       "url": "https://blakefarms.com/event/farm-to-glass-experience/",
+      "sourceType": "google",
+      "sourceLabel": "Google-discovered official event page"
+    },
+    {
+      "name": "Barks & Blooms",
+      "date": "2026-05-02 to 2026-05-03",
+      "time": "10:00 AM-4:00 PM",
+      "location": "Blake's Lyon Township, 71485 Silver Lake Rd, South Lyon, MI 48178",
+      "description": "Verified on Blake Farms' official event page during this refresh. This two-day spring event invites guests to walk the orchard and bloom areas with their dogs, with photo spots, contests, and plant-opening festivities.",
+      "url": "https://blakefarms.com/event/barks-and-blooms/2026-05-02/",
+      "sourceType": "google",
+      "sourceLabel": "Google-discovered official event page"
+    },
+    {
+      "name": "Maybury Farm Fest",
+      "date": "2026-05-16",
+      "time": "10:00 AM-5:00 PM",
+      "location": "Maybury Farm, 50165 8 Mile Rd., Northville, MI 48167",
+      "description": "Verified on Maybury Farm's official events page during this refresh. The spring festival includes baby animals, seed planting, family activities, bluegrass music, games, and food trucks. The page lists May 17 as the rain date.",
+      "url": "https://www.mayburyfarm.org/events",
+      "sourceType": "google",
+      "sourceLabel": "Google-discovered official event page"
+    },
+    {
+      "name": "Eastern Market Flower Day",
+      "date": "2026-05-17",
+      "time": "7:00 AM-5:00 PM",
+      "location": "Eastern Market, Detroit, MI",
+      "description": "Verified on Eastern Market's official event listings page during this refresh. Flower Day is listed as the annual Sunday event with more than 150 flower vendors, live music, food, and all-ages festivities.",
+      "url": "https://easternmarket.org/events/",
+      "sourceType": "google",
+      "sourceLabel": "Google-discovered official event listing"
+    },
+    {
+      "name": "Farm Explorers",
+      "date": "2026-05-02, 05-09, 05-16, 05-23, 05-30",
+      "time": "Saturdays 9:30 AM-1:30 PM",
+      "location": "Upland Hills Farm, 481 Lake George Road, Oxford, MI 48370",
+      "description": "Verified on Upland Hills Farm's official Farm Explorers page during this refresh. The May drop-off workshops are pitched for animal and nature lovers and run across five Saturday sessions in May.",
+      "url": "https://www.uplandhillsfarm.com/farm-explorers",
       "sourceType": "google",
       "sourceLabel": "Google-discovered official event page"
     }

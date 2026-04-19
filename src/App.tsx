@@ -244,18 +244,6 @@ function App() {
             ))}
           </div>
         </section>
-
-        <section className="section closing-note">
-          <div>
-            <p className="section-kicker">Before you go</p>
-            <h2>Make it a fun day trip</h2>
-            <p>
-              Call ahead, wear shoes you do not mind getting dusty, and bring a
-              few photos home. Pigs are somehow both adorable and hilarious in
-              person.
-            </p>
-          </div>
-        </section>
       </main>
     </div>
   )
