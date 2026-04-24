@@ -178,6 +178,13 @@
   margin-bottom: 3rem;
 }
 
+h1,
+h2,
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.01em;
+}
+
 h3 {
   margin-top: 0;
   margin-bottom: 0.7rem;
