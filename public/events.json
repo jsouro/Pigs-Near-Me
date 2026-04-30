@@ -1,166 +1,86 @@
 {
-  "lastUpdated": "2026-04-29T09:00:00-04:00",
-  "refreshNotes": "Refreshed April 29, 2026 from official Metro Detroit farm event pages, public web-search result snippets, and attempted public Facebook event pages. Direct Facebook event pages returned public error pages in this environment and Bing search was challenge-gated, so the feed favors official farm/event pages that could be verified. Added Blake Farms' Mother's Day brunches, Tales & Cocktails, Sauce Off, and Little Sprouts listings; re-verified DeBuck's, Blake's bloom events, Upland Hills, Maybury Farm Fest, and Eastern Market flower events.",
+  "lastUpdated": "2026-04-30T13:00:00.000Z",
+  "refreshNotes": "Checked public Facebook event access, Google/Bing search-result access, and official Metro Detroit farm event pages on April 30, 2026. Facebook and general search result pages were mostly blocked by login, bot challenges, or sparse snippets from this environment, so this refresh favors official farm pages and search-discovered farm pages with current public details.",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
       "date": "2026-04-17 to 2026-05-03",
       "time": "Wed-Fri 12:00 PM-8:00 PM, Sat-Sun 10:00 AM-8:00 PM",
       "location": "DeBuck's Family Farm, 50240 Martz Road, Belleville, MI 48111",
-      "description": "Re-verified April 29 on DeBuck's official homepage. The festival remains promoted through May 3 with 1 million tulips, farm attractions, food, and spring photo spots.",
+      "description": "Reconfirmed on DeBuck's official site. Metro Detroit's largest tulip festival is now listed through May 3 with 1 million blooms, spring farm attractions, treats, and photo-friendly fields.",
       "url": "https://www.debucksfamilyfarm.com/",
       "sourceType": "google",
       "sourceLabel": "Official farm page"
     },
     {
-      "name": "Blake's In Bloom | Tulips, Apple Blossoms and Flowers",
+      "name": "Blake's In Bloom: Tulips, Apple Blossoms and Flowers",
       "date": "2026-04-23 to mid-May 2026",
-      "time": "Weekdays train rides 11:00 AM-4:00 PM, weekends train rides 8:00 AM-5:00 PM",
+      "time": "Weekday train rides start 11:00 AM and run to fields until 4:00 PM; weekend train rides start 8:00 AM and run to fields until 5:00 PM",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Re-verified April 29 from Blake Farms' official events listing. Blake's continues to promote its tulip and apple-blossom spring bloom experience from late April into mid-May.",
+      "description": "Reconfirmed on Blake Farms' official event pages. Blake's is advertising 200,000+ tulips, apple blossom tours, flower-field rides, and spring orchard activities during the bloom window.",
       "url": "https://blakefarms.com/event/blakes-in-bloom/",
       "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Farm to Glass Experience",
-      "date": "2026-04-30",
-      "time": "6:00 PM",
-      "location": "Blake's Tasting Room, Armada, MI",
-      "description": "Verified again from Blake Farms' official events listing. This ticketed evening features chef-crafted courses paired with Blake's hard cider.",
-      "url": "https://blakefarms.com/event/farm-to-glass-experience/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
+      "sourceLabel": "Official farm event page"
     },
     {
       "name": "Barks & Blooms",
       "date": "2026-05-02 to 2026-05-03",
       "time": "10:00 AM-4:00 PM",
-      "location": "Blake's Lyon Township, 71485 Silver Lake Rd, South Lyon, MI 48178",
-      "description": "Re-verified April 29 on Blake Farms' events listing. This dog-friendly bloom walk includes orchard access, themed photo spots, contests, raffles, and Peter's Plants opening weekend.",
+      "location": "Blake's Lyon Township, Lyon Township, MI",
+      "description": "Found on Blake Farms' official May event listing. This two-day dog-friendly spring event pairs fresh air and bloom-season farm scenery at Blake's Lyon Township location.",
       "url": "https://blakefarms.com/event/barks-and-blooms/2026-05-02/",
       "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Chasing El Chavo 5K",
-      "date": "2026-05-02",
-      "time": "4:00 PM-8:00 PM",
-      "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Re-verified April 29 from Blake Farms' official listing. This orchard 5K/walk is promoted as a fiesta-style trail run with post-race cider, donuts, and patio food and drinks.",
-      "url": "https://blakefarms.com/event/chasing-el-chavo-5k-2/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Farm Explorers",
-      "date": "2026-05-02, 05-09, 05-16, 05-23, 05-30",
-      "time": "Saturdays 9:30 AM-1:30 PM",
-      "location": "Upland Hills Farm, 481 Lake George Road, Oxford, MI 48370",
-      "description": "Re-verified April 29 on Upland Hills Farm's official Farm Explorers page. The May drop-off workshops remain listed across all five Saturdays in May.",
-      "url": "https://www.uplandhillsfarm.com/farm-explorers",
-      "sourceType": "google",
-      "sourceLabel": "Official farm page"
+      "sourceLabel": "Official farm event page"
     },
     {
       "name": "Apple Blossom Yoga Experience",
       "date": "2026-05-07",
       "time": "6:00 PM-7:30 PM",
-      "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Re-verified April 29 from Blake Farms' official events listing. The orchard yoga session includes a post-event cider and donut, with guests arriving early for the train ride to the bloom area.",
+      "location": "Blake Farms, Armada, MI",
+      "description": "Found on Blake Farms' official May event listing. A spring orchard yoga experience designed for all skill levels during apple blossom season.",
       "url": "https://blakefarms.com/event/apple-blossom-yoga-experience/",
       "sourceType": "google",
-      "sourceLabel": "Official event page"
+      "sourceLabel": "Official farm event page"
     },
     {
       "name": "Little Gardeners Workshop",
       "date": "2026-05-09",
       "time": "10:00 AM-12:00 PM",
-      "location": "Blake's Backyard, 5600 Van Dyke Rd, Almont, MI 48003",
-      "description": "Re-verified April 29 from Blake Farms' official events listing. The family workshop includes terracotta-pot decorating, plant-life-cycle activities, and rabbit time for kids.",
+      "location": "Blake Farms, Armada, MI",
+      "description": "Found on Blake Farms' official May event listing. Kids cultivate a love for gardening and nature through hands-on spring activities.",
       "url": "https://blakefarms.com/event/little-gardeners-workshop/",
       "sourceType": "google",
-      "sourceLabel": "Official event page"
+      "sourceLabel": "Official farm event page"
     },
     {
-      "name": "Mother's Day Brunch at Blake's Tasting Room",
-      "date": "2026-05-10",
-      "time": "9:00 AM-3:00 PM",
-      "location": "Blake's Tasting Room, Armada, MI",
-      "description": "Added April 29 from Blake Farms' official event page. This farm brunch pairs seasonal flavors and crisp pours with a spring backdrop for Mother's Day.",
-      "url": "https://blakefarms.com/event/tr-mothers-day-brunch/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Mother's Day Brunch at Blake's Backyard",
-      "date": "2026-05-10",
-      "time": "9:00 AM-3:00 PM",
-      "location": "Blake's Backyard, 5600 Van Dyke Rd, Almont, MI 48003",
-      "description": "Added April 29 from Blake Farms' official event page. Blake's Backyard is advertising a spring-inspired Mother's Day brunch with fresh blooms, seasonal ingredients, brunch favorites, and cocktails.",
-      "url": "https://blakefarms.com/event/backyard-mothers-day-brunch/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Tales & Cocktails: A Guided Mixology Class",
-      "date": "2026-05-13",
-      "time": "6:30 PM",
-      "location": "Blake's Backyard, 5600 Van Dyke Rd, Almont, MI 48003",
-      "description": "Added April 29 from Blake Farms' official event page. The guided class covers a featured spirit's history while guests shake, stir, and sip seasonal cocktails.",
-      "url": "https://blakefarms.com/event/tales-cocktails/2026-05-13/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Maybury Farm Fest",
+      "name": "Farm Fest",
       "date": "2026-05-16",
-      "time": "10:00 AM-5:00 PM",
-      "location": "Maybury Farm, 50165 8 Mile Rd., Northville, MI 48167",
-      "description": "Re-verified April 29 on Maybury Farm's official events page. The spring festival includes baby animals, seed planting, family activities, bluegrass music, crafts, games, food trucks, and a May 17 rain date.",
+      "time": "10:00 AM-5:00 PM; rain date Sunday, May 17",
+      "location": "Maybury Farm, 50165 Eight Mile Road, Northville, MI 48167",
+      "description": "Reconfirmed on Maybury Farm's official events page. The spring festival includes baby animals, farm admission, games, crafts including pig and sheep crafts, seed planting, demonstrations, live bluegrass, food trucks, and optional wagon rides.",
       "url": "https://www.mayburyfarm.org/events",
       "sourceType": "google",
+      "sourceLabel": "Official farm event page"
+    },
+    {
+      "name": "Farm Explorers",
+      "date": "Saturday mornings in May 2026",
+      "time": "Saturday mornings",
+      "location": "Upland Hills Farm, 481 Lake George Road, Oxford, MI 48370",
+      "description": "Reconfirmed on Upland Hills Farm's official homepage. Farm Explorers is a hands-on Saturday morning program for animal and nature lovers who want to explore the farm and learn farm-life skills up close.",
+      "url": "https://www.uplandhillsfarm.com/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm homepage"
+    },
+    {
+      "name": "Carousel Acres 2026 Farm Visits",
+      "date": "Open season starts 2026-04-15",
+      "time": "Mon-Fri 10:00 AM-2:00 PM; Sat-Sun 10:00 AM-3:00 PM, weather permitting",
+      "location": "Carousel Acres, South Lyon, MI",
+      "description": "Reconfirmed on Carousel Acres' official site. The farm lists regular public visiting hours for the 2026 season, with admission, animal visits, and weekend pony rides available for an added fee.",
+      "url": "https://www.carouselacres.biz/",
+      "sourceType": "google",
       "sourceLabel": "Official farm page"
-    },
-    {
-      "name": "Eastern Market Flower Day",
-      "date": "2026-05-17",
-      "time": "7:00 AM-5:00 PM",
-      "location": "Eastern Market, Detroit, MI",
-      "description": "Re-verified April 29 on Eastern Market's official May 2026 event listings. Flower Day remains listed with live music, food, and more than 150 flower vendors.",
-      "url": "https://easternmarket.org/events/?tribe-bar-date=2026-05",
-      "sourceType": "google",
-      "sourceLabel": "Official event listing"
-    },
-    {
-      "name": "Blake's 3rd Annual Sauce Off",
-      "date": "2026-05-23",
-      "time": "1:00 PM-4:00 PM",
-      "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Added April 29 from Blake Farms' official Sauce Off page and events listing. Memorial Day weekend event with wings, hard cider or beer, live music, sauce sampling, and voting for favorite sauces.",
-      "url": "https://blakefarms.com/sauce-off/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Little Sprouts Educational Program at Blake's Orchard & Cider Mill",
-      "date": "Starts 2026-05-26; Tuesdays & Thursdays through 2026-08-20",
-      "time": "10:00 AM-11:15 AM",
-      "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Added April 29 from Blake Farms' official event page. Preschoolers ages 3-5 and parents get hands-on farm learning around animals, plants, pollinators, and harvest, followed by Funland time plus cider and a donut.",
-      "url": "https://blakefarms.com/event/bf-little-sprouts-educational-program/",
-      "sourceType": "google",
-      "sourceLabel": "Official event page"
-    },
-    {
-      "name": "Eastern Market Flower Tuesday Markets",
-      "date": "2026-05-05, 05-12, 05-19, 05-26",
-      "time": "Tuesdays 9:00 AM-3:00 PM",
-      "location": "Eastern Market, Sheds 5 & 6, Detroit, MI",
-      "description": "Re-verified April 29 on Eastern Market's official May 2026 listings. The Tuesday flower markets remain listed as a lighter-crowd way to shop seasonal flowers from market growers.",
-      "url": "https://easternmarket.org/events/?tribe-bar-date=2026-05",
-      "sourceType": "google",
-      "sourceLabel": "Official event listing"
     }
   ]
 }
