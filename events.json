@@ -1,76 +1,86 @@
 {
-  "lastUpdated": "2026-04-19T19:35:00.000Z",
-  "refreshNotes": "Checked public Facebook event listings, Google-discovered results, and official farm event pages on April 19, 2026. Facebook event pages were not directly readable from this environment during this run, so the refresh favors currently verifiable official event pages and official event listings.",
+  "lastUpdated": "2026-04-30T13:00:00.000Z",
+  "refreshNotes": "Checked public Facebook event access, Google/Bing search-result access, and official Metro Detroit farm event pages on April 30, 2026. Facebook and general search result pages were mostly blocked by login, bot challenges, or sparse snippets from this environment, so this refresh favors official farm pages and search-discovered farm pages with current public details.",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
-      "date": "2026-04-17 to 2026-04-26",
+      "date": "2026-04-17 to 2026-05-03",
       "time": "Wed-Fri 12:00 PM-8:00 PM, Sat-Sun 10:00 AM-8:00 PM",
       "location": "DeBuck's Family Farm, 50240 Martz Road, Belleville, MI 48111",
-      "description": "Verified on DeBuck's official site during this refresh. The farm is promoting its April 17 to 26 tulip festival as Metro Detroit's largest, with spring attractions, food, and photo-friendly bloom fields.",
+      "description": "Reconfirmed on DeBuck's official site. Metro Detroit's largest tulip festival is now listed through May 3 with 1 million blooms, spring farm attractions, treats, and photo-friendly fields.",
       "url": "https://www.debucksfamilyfarm.com/",
       "sourceType": "google",
-      "sourceLabel": "Google-discovered official event page"
+      "sourceLabel": "Official farm page"
     },
     {
-      "name": "Blake's 2nd Annual Tulip Festival",
-      "date": "2026-04-25 to mid-May 2026",
-      "time": "Mon-Thu train rides 11:00 AM-4:00 PM, Fri-Sun train rides 8:00 AM-5:00 PM",
+      "name": "Blake's In Bloom: Tulips, Apple Blossoms and Flowers",
+      "date": "2026-04-23 to mid-May 2026",
+      "time": "Weekday train rides start 11:00 AM and run to fields until 4:00 PM; weekend train rides start 8:00 AM and run to fields until 5:00 PM",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Verified on Blake Farms' official Blake's In Bloom page during this refresh. The 2026 tulip festival is advertised as opening April 25 with more than 200,000 tulips, orchard trail experiences, and rides out to the fields.",
-      "url": "https://blakefarms.com/blakes-in-bloom/",
+      "description": "Reconfirmed on Blake Farms' official event pages. Blake's is advertising 200,000+ tulips, apple blossom tours, flower-field rides, and spring orchard activities during the bloom window.",
+      "url": "https://blakefarms.com/event/blakes-in-bloom/",
       "sourceType": "google",
-      "sourceLabel": "Google-discovered official event page"
-    },
-    {
-      "name": "Farm to Glass Experience",
-      "date": "2026-04-30",
-      "time": "6:00 PM",
-      "location": "Blake's Tasting Room, Armada, MI",
-      "description": "Verified on Blake Farms' official event page during this refresh. The ticketed evening features four chef-crafted courses paired with Blake's hard cider and seasonal ingredients.",
-      "url": "https://blakefarms.com/event/farm-to-glass-experience/",
-      "sourceType": "google",
-      "sourceLabel": "Google-discovered official event page"
+      "sourceLabel": "Official farm event page"
     },
     {
       "name": "Barks & Blooms",
       "date": "2026-05-02 to 2026-05-03",
       "time": "10:00 AM-4:00 PM",
-      "location": "Blake's Lyon Township, 71485 Silver Lake Rd, South Lyon, MI 48178",
-      "description": "Verified on Blake Farms' official event page during this refresh. This two-day spring event invites guests to walk the orchard and bloom areas with their dogs, with photo spots, contests, and plant-opening festivities.",
+      "location": "Blake's Lyon Township, Lyon Township, MI",
+      "description": "Found on Blake Farms' official May event listing. This two-day dog-friendly spring event pairs fresh air and bloom-season farm scenery at Blake's Lyon Township location.",
       "url": "https://blakefarms.com/event/barks-and-blooms/2026-05-02/",
       "sourceType": "google",
-      "sourceLabel": "Google-discovered official event page"
+      "sourceLabel": "Official farm event page"
     },
     {
-      "name": "Maybury Farm Fest",
+      "name": "Apple Blossom Yoga Experience",
+      "date": "2026-05-07",
+      "time": "6:00 PM-7:30 PM",
+      "location": "Blake Farms, Armada, MI",
+      "description": "Found on Blake Farms' official May event listing. A spring orchard yoga experience designed for all skill levels during apple blossom season.",
+      "url": "https://blakefarms.com/event/apple-blossom-yoga-experience/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event page"
+    },
+    {
+      "name": "Little Gardeners Workshop",
+      "date": "2026-05-09",
+      "time": "10:00 AM-12:00 PM",
+      "location": "Blake Farms, Armada, MI",
+      "description": "Found on Blake Farms' official May event listing. Kids cultivate a love for gardening and nature through hands-on spring activities.",
+      "url": "https://blakefarms.com/event/little-gardeners-workshop/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event page"
+    },
+    {
+      "name": "Farm Fest",
       "date": "2026-05-16",
-      "time": "10:00 AM-5:00 PM",
-      "location": "Maybury Farm, 50165 8 Mile Rd., Northville, MI 48167",
-      "description": "Verified on Maybury Farm's official events page during this refresh. The spring festival includes baby animals, seed planting, family activities, bluegrass music, games, and food trucks. The page lists May 17 as the rain date.",
+      "time": "10:00 AM-5:00 PM; rain date Sunday, May 17",
+      "location": "Maybury Farm, 50165 Eight Mile Road, Northville, MI 48167",
+      "description": "Reconfirmed on Maybury Farm's official events page. The spring festival includes baby animals, farm admission, games, crafts including pig and sheep crafts, seed planting, demonstrations, live bluegrass, food trucks, and optional wagon rides.",
       "url": "https://www.mayburyfarm.org/events",
       "sourceType": "google",
-      "sourceLabel": "Google-discovered official event page"
-    },
-    {
-      "name": "Eastern Market Flower Day",
-      "date": "2026-05-17",
-      "time": "7:00 AM-5:00 PM",
-      "location": "Eastern Market, Detroit, MI",
-      "description": "Verified on Eastern Market's official event listings page during this refresh. Flower Day is listed as the annual Sunday event with more than 150 flower vendors, live music, food, and all-ages festivities.",
-      "url": "https://easternmarket.org/events/",
-      "sourceType": "google",
-      "sourceLabel": "Google-discovered official event listing"
+      "sourceLabel": "Official farm event page"
     },
     {
       "name": "Farm Explorers",
-      "date": "2026-05-02, 05-09, 05-16, 05-23, 05-30",
-      "time": "Saturdays 9:30 AM-1:30 PM",
+      "date": "Saturday mornings in May 2026",
+      "time": "Saturday mornings",
       "location": "Upland Hills Farm, 481 Lake George Road, Oxford, MI 48370",
-      "description": "Verified on Upland Hills Farm's official Farm Explorers page during this refresh. The May drop-off workshops are pitched for animal and nature lovers and run across five Saturday sessions in May.",
-      "url": "https://www.uplandhillsfarm.com/farm-explorers",
+      "description": "Reconfirmed on Upland Hills Farm's official homepage. Farm Explorers is a hands-on Saturday morning program for animal and nature lovers who want to explore the farm and learn farm-life skills up close.",
+      "url": "https://www.uplandhillsfarm.com/",
       "sourceType": "google",
-      "sourceLabel": "Google-discovered official event page"
+      "sourceLabel": "Official farm homepage"
+    },
+    {
+      "name": "Carousel Acres 2026 Farm Visits",
+      "date": "Open season starts 2026-04-15",
+      "time": "Mon-Fri 10:00 AM-2:00 PM; Sat-Sun 10:00 AM-3:00 PM, weather permitting",
+      "location": "Carousel Acres, South Lyon, MI",
+      "description": "Reconfirmed on Carousel Acres' official site. The farm lists regular public visiting hours for the 2026 season, with admission, animal visits, and weekend pony rides available for an added fee.",
+      "url": "https://www.carouselacres.biz/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm page"
     }
   ]
 }
