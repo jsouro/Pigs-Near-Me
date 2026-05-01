@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-04-30T13:00:00.000Z",
-  "refreshNotes": "Checked public Facebook event access, Google/Bing search-result access, and official Metro Detroit farm event pages on April 30, 2026. Facebook and general search result pages were mostly blocked by login, bot challenges, or sparse snippets from this environment, so this refresh favors official farm pages and search-discovered farm pages with current public details.",
+  "lastUpdated": "2026-05-01T13:00:00.000Z",
+  "refreshNotes": "Checked public Facebook event pages, Google/Bing search-result access, Blake Farms' public events API, and official Metro Detroit farm pages on May 1, 2026. Facebook remained blocked by public access errors and Google/Bing snippets were limited or challenged, so this refresh favors official farm pages and structured official event feeds that were reachable.",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
       "date": "2026-04-17 to 2026-05-03",
-      "time": "Wed-Fri 12:00 PM-8:00 PM, Sat-Sun 10:00 AM-8:00 PM",
+      "time": "Wed-Fri 12:00 PM-8:00 PM; Sat-Sun 10:00 AM-8:00 PM",
       "location": "DeBuck's Family Farm, 50240 Martz Road, Belleville, MI 48111",
-      "description": "Reconfirmed on DeBuck's official site. Metro Detroit's largest tulip festival is now listed through May 3 with 1 million blooms, spring farm attractions, treats, and photo-friendly fields.",
+      "description": "Reconfirmed on DeBuck's official site. Metro Detroit's largest tulip festival runs through May 3 with 1 million blooms, spring farm attractions, treats, and photo-friendly fields.",
       "url": "https://www.debucksfamilyfarm.com/",
       "sourceType": "google",
       "sourceLabel": "Official farm page"
@@ -17,7 +17,7 @@
       "date": "2026-04-23 to mid-May 2026",
       "time": "Weekday train rides start 11:00 AM and run to fields until 4:00 PM; weekend train rides start 8:00 AM and run to fields until 5:00 PM",
       "location": "Blake's Orchard & Cider Mill, 17985 Armada Center Road, Armada, MI 48005",
-      "description": "Reconfirmed on Blake Farms' official event pages. Blake's is advertising 200,000+ tulips, apple blossom tours, flower-field rides, and spring orchard activities during the bloom window.",
+      "description": "Reconfirmed through Blake Farms' official event pages. Blake's is advertising 200,000+ tulips, apple blossom tours, flower-field rides, and spring orchard activities during the bloom window.",
       "url": "https://blakefarms.com/event/blakes-in-bloom/",
       "sourceType": "google",
       "sourceLabel": "Official farm event page"
@@ -27,17 +27,27 @@
       "date": "2026-05-02 to 2026-05-03",
       "time": "10:00 AM-4:00 PM",
       "location": "Blake's Lyon Township, Lyon Township, MI",
-      "description": "Found on Blake Farms' official May event listing. This two-day dog-friendly spring event pairs fresh air and bloom-season farm scenery at Blake's Lyon Township location.",
+      "description": "Reconfirmed in Blake Farms' public event feed. This two-day dog-friendly spring event pairs fresh air and bloom-season farm scenery at Blake's Lyon Township location.",
       "url": "https://blakefarms.com/event/barks-and-blooms/2026-05-02/",
       "sourceType": "google",
       "sourceLabel": "Official farm event page"
     },
     {
+      "name": "Chasing El Chavo 5K",
+      "date": "2026-05-02",
+      "time": "1:00 PM-5:00 PM",
+      "location": "Blake's Orchard & Cider Mill, Armada, MI",
+      "description": "Added from Blake Farms' public event feed and official event page. A gravel-trail orchard 5K/run-walk with cider, donuts, and a fiesta-style celebration after the finish.",
+      "url": "https://blakefarms.com/event/chasing-el-chavo-5k-2/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event feed"
+    },
+    {
       "name": "Apple Blossom Yoga Experience",
       "date": "2026-05-07",
       "time": "6:00 PM-7:30 PM",
-      "location": "Blake Farms, Armada, MI",
-      "description": "Found on Blake Farms' official May event listing. A spring orchard yoga experience designed for all skill levels during apple blossom season.",
+      "location": "Blake's Orchard & Cider Mill, Armada, MI",
+      "description": "Reconfirmed in Blake Farms' public event feed. A spring orchard yoga experience designed for all skill levels during apple blossom season.",
       "url": "https://blakefarms.com/event/apple-blossom-yoga-experience/",
       "sourceType": "google",
       "sourceLabel": "Official farm event page"
@@ -46,21 +56,61 @@
       "name": "Little Gardeners Workshop",
       "date": "2026-05-09",
       "time": "10:00 AM-12:00 PM",
-      "location": "Blake Farms, Armada, MI",
-      "description": "Found on Blake Farms' official May event listing. Kids cultivate a love for gardening and nature through hands-on spring activities.",
+      "location": "Blake's Backyard, Armada, MI",
+      "description": "Reconfirmed in Blake Farms' public event feed. Kids cultivate a love for gardening and nature through hands-on spring activities.",
       "url": "https://blakefarms.com/event/little-gardeners-workshop/",
       "sourceType": "google",
       "sourceLabel": "Official farm event page"
+    },
+    {
+      "name": "Appleseed Camp Open House",
+      "date": "2026-05-09",
+      "time": "10:00 AM-1:00 PM",
+      "location": "Blake Farms, Armada, MI",
+      "description": "Added from Blake Farms' public event feed and official event page. A free family open house with hands-on camp-style farm activities for kids, a chance to meet the team, and same-day camp registration savings.",
+      "url": "https://blakefarms.com/event/appleseed-camp-open-house/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event feed"
     },
     {
       "name": "Farm Fest",
       "date": "2026-05-16",
       "time": "10:00 AM-5:00 PM; rain date Sunday, May 17",
       "location": "Maybury Farm, 50165 Eight Mile Road, Northville, MI 48167",
-      "description": "Reconfirmed on Maybury Farm's official events page. The spring festival includes baby animals, farm admission, games, crafts including pig and sheep crafts, seed planting, demonstrations, live bluegrass, food trucks, and optional wagon rides.",
+      "description": "Reconfirmed on Maybury Farm's official events page. The spring festival includes baby animals, farm admission, games, pig and sheep crafts, seed planting, demonstrations, live bluegrass, food trucks, and optional wagon rides.",
       "url": "https://www.mayburyfarm.org/events",
       "sourceType": "google",
       "sourceLabel": "Official farm event page"
+    },
+    {
+      "name": "Funland Grand Opening: Mom-to-Mom Sale",
+      "date": "2026-05-16",
+      "time": "9:00 AM-5:00 PM",
+      "location": "Blake Farms, Armada, MI",
+      "description": "Added from Blake Farms' public event feed. The Funland Grand Opening combines family farm attractions with a mom-to-mom sale and a full day at the farm.",
+      "url": "https://blakefarms.com/event/funland-grand-opening/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event feed"
+    },
+    {
+      "name": "Little Sprouts Educational Program at Blake's Orchard & Cider Mill",
+      "date": "2026-05-26",
+      "time": "10:00 AM-11:30 AM",
+      "location": "Blake's Orchard & Cider Mill, Armada, MI",
+      "description": "Added from Blake Farms' public event feed. A hands-on farm program for preschoolers ages 3-5, designed for parents and kids to learn and explore together.",
+      "url": "https://blakefarms.com/event/bf-little-sprouts-educational-program/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event feed"
+    },
+    {
+      "name": "Little Sprouts Educational Program at Blake's Lyon Township",
+      "date": "2026-05-26",
+      "time": "10:30 AM-11:15 AM",
+      "location": "Blake's Lyon Township, Lyon Township, MI",
+      "description": "Added from Blake Farms' public event feed. A preschool farm program for ages 3-5 with parent-and-child learning and exploration on the farm.",
+      "url": "https://blakefarms.com/event/blt-little-sprouts-educational-program/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm event feed"
     },
     {
       "name": "Farm Explorers",
@@ -81,6 +131,16 @@
       "url": "https://www.carouselacres.biz/",
       "sourceType": "google",
       "sourceLabel": "Official farm page"
+    },
+    {
+      "name": "MSU Tollgate Farm Public Visits",
+      "date": "Open daily in 2026",
+      "time": "Dawn to dusk",
+      "location": "MSU Tollgate Farm and Education Center, Novi, MI",
+      "description": "Added from MSU Tollgate's official farm homepage. The 160-acre farm is open to the public daily and includes working-farm animals, gardens, sustainable agriculture demonstrations, and hands-on agriculture programming.",
+      "url": "https://www.canr.msu.edu/tollgate/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm homepage"
     }
   ]
 }
