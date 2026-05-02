@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-01T13:00:00.000Z",
-  "refreshNotes": "Checked public Facebook event pages, Google/Bing search-result access, Blake Farms' public events API, and official Metro Detroit farm pages on May 1, 2026. Facebook remained blocked by public access errors and Google/Bing snippets were limited or challenged, so this refresh favors official farm pages and structured official event feeds that were reachable.",
+  "lastUpdated": "2026-05-02T13:00:00.000Z",
+  "refreshNotes": "Checked public Facebook event pages, Google search access, DuckDuckGo/Bing search results, Michigan Agritourism's May event calendar, Blake Farms' public events feed, and official Metro Detroit farm pages on May 2, 2026. Facebook returned public access errors and Google remained too sparse from this environment, so this refresh favors reachable official farm pages, Michigan Agritourism listings, and structured official event feeds.",
   "events": [
     {
       "name": "DeBuck's Tulip Festival",
@@ -73,6 +73,16 @@
       "sourceLabel": "Official farm event feed"
     },
     {
+      "name": "Guided Farm Tours at Wolcott Mill Metropark Farm Center",
+      "date": "2026-05-13",
+      "time": "10:00 AM-11:00 AM",
+      "location": "Wolcott Mill Metropark Farm Center, 65775 Wolcott Road, Ray, MI 48096",
+      "description": "Added from Michigan Agritourism and cross-checked against the official Metroparks farm-center page. This guided working-farm tour gets visitors close to cows, goats, chickens, and other farm animals while learning where milk comes from and how farm animals are cared for.",
+      "url": "https://www.metroparks.com/wolcott-metropark/wolcott-mill-metropark-farm-center/",
+      "sourceType": "google",
+      "sourceLabel": "Michigan Agritourism + official farm page"
+    },
+    {
       "name": "Farm Fest",
       "date": "2026-05-16",
       "time": "10:00 AM-5:00 PM; rain date Sunday, May 17",
@@ -118,6 +128,16 @@
       "time": "Saturday mornings",
       "location": "Upland Hills Farm, 481 Lake George Road, Oxford, MI 48370",
       "description": "Reconfirmed on Upland Hills Farm's official homepage. Farm Explorers is a hands-on Saturday morning program for animal and nature lovers who want to explore the farm and learn farm-life skills up close.",
+      "url": "https://www.uplandhillsfarm.com/",
+      "sourceType": "google",
+      "sourceLabel": "Official farm homepage"
+    },
+    {
+      "name": "Toddler Tuesdays at Upland Hills Farm",
+      "date": "Tuesday mornings in May 2026",
+      "time": "Tuesday mornings",
+      "location": "Upland Hills Farm, 481 Lake George Road, Oxford, MI 48370",
+      "description": "Added from Upland Hills Farm's official homepage. Tuesday morning farm visits in May let toddlers meet the animals, explore play areas, and enjoy a hayride; the May 5 session lists Lake Orion Library as a special guest.",
       "url": "https://www.uplandhillsfarm.com/",
       "sourceType": "google",
       "sourceLabel": "Official farm homepage"
