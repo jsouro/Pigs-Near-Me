@@ -392,6 +392,17 @@ main {
   transition: gap 0.18s ease;
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
+  margin-top: auto;
+}
+
+.card-links .card-link {
+  margin-top: 0;
+}
+
 .card-link span {
   display: inline-block;
   transition: transform 0.18s ease;
@@ -403,6 +414,49 @@ main {
 
 .notice-card {
   max-width: 30rem;
+}
+
+/* ---------- Ended events ---------- */
+
+.ended-events {
+  margin-top: 2rem;
+}
+
+.ended-events summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--border);
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+  transition: background 0.18s ease;
+}
+
+.ended-events summary:hover {
+  background: var(--accent-soft);
+}
+
+.ended-events[open] summary {
+  margin-bottom: 1.4rem;
+}
+
+.event-card.ended {
+  opacity: 0.7;
+}
+
+.event-card.ended:hover {
+  opacity: 1;
+}
+
+.ended-pill {
+  background: #efe4ea;
+  color: var(--ink-soft);
 }
 
 /* ---------- Loading skeletons ---------- */

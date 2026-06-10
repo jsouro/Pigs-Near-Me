@@ -73,6 +73,25 @@ const navLinks = [
 
 const GALLERY_PREVIEW_COUNT = 8
 
+const mapsUrl = (query: string) =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`
+
+// Date strings look like "2026-05-16" or "2026-04-17 to 2026-05-03"; the
+// last ISO date in the string is treated as the event's final day.
+function eventEndDate(date: string): Date | null {
+  const matches = date.match(/\d{4}-\d{2}-\d{2}/g)
+  if (!matches) {
+    return null
+  }
+  const parsed = new Date(`${matches[matches.length - 1]}T23:59:59`)
+  return Number.isNaN(parsed.getTime()) ? null : parsed
+}
+
+function isUpcoming(eventItem: FarmEvent, now: Date): boolean {
+  const end = eventEndDate(eventItem.date)
+  return end === null || end >= now
+}
+
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
   for (let i = copy.length - 1; i > 0; i -= 1) {
@@ -131,6 +150,10 @@ function App() {
         timeStyle: 'short',
       })
     : ''
+
+  const now = new Date()
+  const upcomingEvents = eventFeed?.events.filter((item) => isUpcoming(item, now)) ?? []
+  const endedEvents = eventFeed?.events.filter((item) => !isUpcoming(item, now)) ?? []
 
   const loadableBreeds = pigBreedGallery.filter((breed) => !brokenImages.has(breed.name))
   const visibleBreeds = showAllBreeds
@@ -230,9 +253,19 @@ function App() {
                 <div className="tip-box">
                   <strong>Tip</strong> {spot.tip}
                 </div>
-                <a className="card-link" href={spot.link} target="_blank" rel="noreferrer">
-                  Visit website <span aria-hidden="true">→</span>
-                </a>
+                <div className="card-links">
+                  <a className="card-link" href={spot.link} target="_blank" rel="noreferrer">
+                    Visit website <span aria-hidden="true">→</span>
+                  </a>
+                  <a
+                    className="card-link"
+                    href={mapsUrl(`${spot.name}, ${spot.city}, MI`)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Directions <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
               </article>
             ))}
           </div>
@@ -272,26 +305,91 @@ function App() {
           ) : null}
 
           {!eventsLoading && !eventError && eventFeed ? (
-            <div className="card-grid">
-              {eventFeed.events.map((eventItem) => (
-                <article className="card event-card" key={`${eventItem.name}-${eventItem.date}`}>
-                  <div className="card-topline">
-                    <span className="date-chip">{eventItem.date}</span>
-                    <span className="pill">{eventItem.sourceLabel ?? 'Event link'}</span>
+            <>
+              {upcomingEvents.length > 0 ? (
+                <div className="card-grid">
+                  {upcomingEvents.map((eventItem) => (
+                    <article
+                      className="card event-card"
+                      key={`${eventItem.name}-${eventItem.date}`}
+                    >
+                      <div className="card-topline">
+                        <span className="date-chip">{eventItem.date}</span>
+                        <span className="pill">{eventItem.sourceLabel ?? 'Event link'}</span>
+                      </div>
+                      <h3>{eventItem.name}</h3>
+                      <p className="vibe">{eventItem.time}</p>
+                      <p className="event-location">📍 {eventItem.location}</p>
+                      <p>{eventItem.description}</p>
+                      <div className="card-links">
+                        <a
+                          className="card-link"
+                          href={eventItem.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {eventItem.sourceType === 'google'
+                            ? 'Open event page'
+                            : 'Open Facebook event'}{' '}
+                          <span aria-hidden="true">→</span>
+                        </a>
+                        <a
+                          className="card-link"
+                          href={mapsUrl(eventItem.location)}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Directions <span aria-hidden="true">↗</span>
+                        </a>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              ) : (
+                <div className="card notice-card">
+                  <h3>No upcoming events right now</h3>
+                  <p>
+                    Everything in the current feed has already wrapped up. Check
+                    back after the next refresh — or browse the pig spots above,
+                    they’re open year-round.
+                  </p>
+                </div>
+              )}
+
+              {endedEvents.length > 0 ? (
+                <details className="ended-events">
+                  <summary>Recently ended events ({endedEvents.length})</summary>
+                  <div className="card-grid">
+                    {endedEvents.map((eventItem) => (
+                      <article
+                        className="card event-card ended"
+                        key={`${eventItem.name}-${eventItem.date}`}
+                      >
+                        <div className="card-topline">
+                          <span className="date-chip">{eventItem.date}</span>
+                          <span className="pill ended-pill">Ended</span>
+                        </div>
+                        <h3>{eventItem.name}</h3>
+                        <p className="vibe">{eventItem.time}</p>
+                        <p className="event-location">📍 {eventItem.location}</p>
+                        <p>{eventItem.description}</p>
+                        <a
+                          className="card-link"
+                          href={eventItem.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {eventItem.sourceType === 'google'
+                            ? 'Open event page'
+                            : 'Open Facebook event'}{' '}
+                          <span aria-hidden="true">→</span>
+                        </a>
+                      </article>
+                    ))}
                   </div>
-                  <h3>{eventItem.name}</h3>
-                  <p className="vibe">{eventItem.time}</p>
-                  <p className="event-location">📍 {eventItem.location}</p>
-                  <p>{eventItem.description}</p>
-                  <a className="card-link" href={eventItem.url} target="_blank" rel="noreferrer">
-                    {eventItem.sourceType === 'google'
-                      ? 'Open event page'
-                      : 'Open Facebook event'}{' '}
-                    <span aria-hidden="true">→</span>
-                  </a>
-                </article>
-              ))}
-            </div>
+                </details>
+              ) : null}
+            </>
           ) : null}
         </section>
 
