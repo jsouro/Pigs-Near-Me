@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { pigFacts } from './pigFacts'
 import type { PigFact } from './pigFacts'
 import { pigBreedGallery } from './pigBreedGallery'
+import PigGame from './PigGame'
 import './App.css'
 
 type PigSpot = {
@@ -69,6 +70,7 @@ const navLinks = [
   { href: '#events', label: 'Farm events' },
   { href: '#breeds', label: 'Breeds' },
   { href: '#facts', label: 'Fun facts' },
+  { href: '#game', label: 'Game' },
 ]
 
 const GALLERY_PREVIEW_COUNT = 8
@@ -468,6 +470,20 @@ function App() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section id="game" className="section">
+          <div className="section-heading">
+            <p className="section-kicker">Piggy break</p>
+            <h2>Truffle Trot</h2>
+            <p>
+              Help the pig hop over logs and tractors and snag apples for bonus
+              points. It gets faster the longer you last — your best score is
+              saved on this device.
+            </p>
+          </div>
+
+          <PigGame />
         </section>
       </main>
 

@@ -19,6 +19,7 @@ Live site:
 - World pig breed photo gallery (broken photos are skipped automatically)
 - Metro Detroit farm events section with loading and error states
 - Event source labels and source links
+- Truffle Trot: a tap-to-jump pig runner mini game with a saved best score
 
 ## Farm event refresh workflow
 
