@@ -161,4 +161,16 @@ export const pigSpots: PigSpot[] = [
     hasPigs: true,
     pigNote: 'Pigs appear in Funland, including the “Piggy Dash” pig races.',
   },
+  {
+    name: 'Three Cedars Farm',
+    city: 'Northville',
+    vibe: 'Cider mill with a storybook petting farm',
+    details:
+      'A family cider mill in Northville with a Barn Yard Play Land of live animals, hayrides, a U-pick pumpkin patch, a corn maze, and fresh cider and donuts.',
+    tip: 'Animals and activities are seasonal — best in fall during cider-mill hours.',
+    link: 'https://threecedarsfarm.org/',
+    emoji: '🎃',
+    hasPigs: true,
+    pigNote: 'Pigs are part of the petting farm, including a “Three Little Pigs” barnyard.',
+  },
 ]
