@@ -1,0 +1,37 @@
+name: Refresh Farm Events
+
+on:
+  schedule:
+    # Run daily at noon UTC (8 AM ET / 9 AM EDT)
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch fresh farm events
+        run: node scripts/refresh_farm_events_template.mjs
+
+      - name: Commit and push if feed changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json public/events.json
+          git diff --cached --quiet || (
+            git commit -m "chore: refresh farm events" &&
+            git push origin main
+          )
