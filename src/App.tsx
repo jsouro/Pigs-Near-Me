@@ -2,18 +2,9 @@ import { useEffect, useState } from 'react'
 import { pigFacts } from './pigFacts'
 import type { PigFact } from './pigFacts'
 import { pigBreedGallery } from './pigBreedGallery'
+import { pigSpots } from './pigSpots'
 import PigGame from './PigGame'
 import './App.css'
-
-type PigSpot = {
-  name: string
-  city: string
-  vibe: string
-  details: string
-  tip: string
-  link: string
-  emoji: string
-}
 
 type FarmEvent = {
   name: string
@@ -31,39 +22,6 @@ type EventFeed = {
   refreshNotes?: string
   events: FarmEvent[]
 }
-
-const pigSpots: PigSpot[] = [
-  {
-    name: 'Maybury Farm',
-    city: 'Northville',
-    vibe: 'Family farm with classic barnyard energy',
-    details:
-      'A Metro Detroit favorite with pigs, goats, chickens, and seasonal events. Great if you want a relaxed afternoon close to the city.',
-    tip: 'Check visiting hours and petting barn access before heading out.',
-    link: 'https://mayburyfarm.org/',
-    emoji: '🌾',
-  },
-  {
-    name: 'Domino’s Farms Petting Farm',
-    city: 'Ann Arbor',
-    vibe: 'Easygoing farm stop with lots of animal variety',
-    details:
-      'Known for kid-friendly animal encounters and a solid chance to spot pigs as part of the farm experience. Worth the short drive from Detroit.',
-    tip: 'Spring through fall is usually the best window for a full visit.',
-    link: 'https://pettingfarm.com/',
-    emoji: '🚜',
-  },
-  {
-    name: 'Upland Hills Farm',
-    city: 'Oxford',
-    vibe: 'Hands-on petting farm with cozy date-day potential',
-    details:
-      'A charming option north of Detroit with animal feeding opportunities, pony rides, and a classic small-farm feel.',
-    tip: 'Bring cash for feed and confirm whether pigs are in the public animal area that day.',
-    link: 'https://www.uplandhillsfarm.com/',
-    emoji: '🐄',
-  },
-]
 
 const navLinks = [
   { href: '#spots', label: 'Pig spots' },
@@ -234,9 +192,10 @@ function App() {
             <p className="section-kicker">Places to check out</p>
             <h2>Metro Detroit pig-friendly stops</h2>
             <p>
-              These are solid starting points for seeing farm animals around the
-              Detroit area. Always verify current hours and animal availability
-              before visiting.
+              {pigSpots.length} farms around Metro Detroit where pigs were
+              confirmed on site, researched from official farm pages, Metroparks,
+              and local directories. Always verify current hours and which animals
+              are out before visiting.
             </p>
           </div>
 
@@ -252,6 +211,11 @@ function App() {
                 <h3>{spot.name}</h3>
                 <p className="vibe">{spot.vibe}</p>
                 <p>{spot.details}</p>
+                {spot.hasPigs ? (
+                  <p className="pig-badge">
+                    <span aria-hidden="true">🐷</span> {spot.pigNote}
+                  </p>
+                ) : null}
                 <div className="tip-box">
                   <strong>Tip</strong> {spot.tip}
                 </div>

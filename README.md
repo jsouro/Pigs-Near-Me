@@ -14,7 +14,7 @@ Live site:
 
 ## Current features
 
-- Metro Detroit farm outing suggestions
+- 12 Metro Detroit farms with pigs confirmed on site (see `src/pigSpots.ts`), each with a pig note, tip, website, and directions link
 - Refresh-randomized pig facts with a shuffle button
 - World pig breed photo gallery (broken photos are skipped automatically)
 - Metro Detroit farm events section with loading and error states
