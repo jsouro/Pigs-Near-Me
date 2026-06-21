@@ -49,6 +49,73 @@ const SOURCES = [
     // Only keep events mentioning farm, animal, or agriculture keywords
     farmFilter: true,
   },
+  // ---- Additional Metro Detroit farms ----
+  {
+    url: 'https://threecedarsfarm.org/events/',
+    sourceLabel: 'Three Cedars Farm',
+    defaultLocation: 'Three Cedars Farm, 26180 Center Ridge Road, Northville, MI 48168',
+    farmFilter: false,
+  },
+  {
+    url: 'https://www.pettingfarm.com/events/',
+    sourceLabel: "Domino's Farms Petting Farm",
+    defaultLocation: "The Petting Farm at Domino's Farms, 3001 Earhart Road, Ann Arbor, MI 48105",
+    farmFilter: false,
+  },
+  {
+    url: 'https://www.schoolfarm.org/events/',
+    sourceLabel: 'Bowers School Farm',
+    defaultLocation: 'Bowers School Farm, 5665 Wing Lake Road, Bloomfield Hills, MI 48301',
+    farmFilter: false,
+  },
+  {
+    url: 'https://calderdairy.com/events/',
+    sourceLabel: 'Calder Dairy & Farm',
+    defaultLocation: 'Calder Dairy & Farm, 9236 Grafton Road, Carleton, MI 48117',
+    farmFilter: false,
+  },
+  {
+    url: 'https://cooksfarmdairy.com/events/',
+    sourceLabel: "Cook's Farm Dairy",
+    defaultLocation: "Cook's Farm Dairy, 7410 M-15 Highway, Ortonville, MI 48462",
+    farmFilter: false,
+  },
+  {
+    url: 'https://www.carouselacres.biz/events/',
+    sourceLabel: 'Carousel Acres',
+    defaultLocation: 'Carousel Acres, 8203 N Cady Road, South Lyon, MI 48178',
+    farmFilter: false,
+  },
+  {
+    url: 'https://www.canr.msu.edu/tollgate/events/',
+    sourceLabel: 'MSU Tollgate Farm',
+    defaultLocation: 'MSU Tollgate Farm and Education Center, 28115 Meadowbrook Road, Novi, MI 48377',
+    farmFilter: false,
+  },
+  {
+    url: 'https://erwinorchards.com/events/',
+    sourceLabel: 'Erwin Orchards',
+    defaultLocation: 'Erwin Orchards, 11174 Silver Lake Road, South Lyon, MI 48178',
+    farmFilter: false,
+  },
+  {
+    url: 'https://westvieworchards.com/events/',
+    sourceLabel: 'Westview Orchards',
+    defaultLocation: 'Westview Orchards, 65075 Van Dyke Avenue, Romeo, MI 48065',
+    farmFilter: false,
+  },
+  {
+    url: 'https://www.hiddenlakegardens.msu.edu/events/',
+    sourceLabel: 'Hidden Lake Gardens',
+    defaultLocation: 'Hidden Lake Gardens, 6214 Monroe Road, Tipton, MI 49287',
+    farmFilter: true,
+  },
+  {
+    url: 'https://www.michiganagritourism.com/events/',
+    sourceLabel: 'Michigan Agritourism',
+    defaultLocation: 'Metro Detroit, MI',
+    farmFilter: true,
+  },
 ]
 
 const METRO_DETROIT_KEYWORDS = [
@@ -61,9 +128,9 @@ const METRO_DETROIT_KEYWORDS = [
   'oxford',
   'belleville',
   'lyon township',
+  'south lyon',
   'ray, mi',
   'novi',
-  'south lyon',
   'milford',
   'rochester',
   'macomb',
@@ -71,6 +138,21 @@ const METRO_DETROIT_KEYWORDS = [
   'sterling heights',
   'brighton',
   'howell',
+  // cities added for new farm sources
+  'ann arbor',
+  'bloomfield hills',
+  'carleton',
+  'ortonville',
+  'romeo',
+  'waterford',
+  'taylor',
+  'washington township',
+  'clarkston',
+  'lake orion',
+  'leonard',
+  'chelsea',
+  'dexter',
+  'grass lake',
 ]
 
 const FARM_KEYWORDS = [
@@ -87,6 +169,15 @@ const FARM_KEYWORDS = [
   'harvest',
   'hayride',
   'barn',
+  'cider',
+  'dairy',
+  'petting',
+  'sheep',
+  'llama',
+  'alpaca',
+  'pumpkin',
+  'corn maze',
+  'u-pick',
 ]
 
 // ---------------------------------------------------------------------------
