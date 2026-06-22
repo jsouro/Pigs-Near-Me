@@ -1,7 +1,77 @@
 {
-  "lastUpdated": "2026-06-21T18:48:58.866Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 21 Jun 2026 18:48:58 GMT.",
+  "lastUpdated": "2026-06-22T17:07:10.565Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 22 Jun 2026 17:07:10 GMT.",
   "events": [
+    {
+      "name": "Appleseed Camp: Blake&#8217;s Outdoor Summer Camp",
+      "date": "2026-06-09 to 2026-08-13",
+      "time": "8:00 AM–4:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Looking for the perfect summer camp for your little one? Appleseed Camp is where hands-on learning meets outdoor fun! Register today.</p>\\n",
+      "url": "https://blakefarms.com/event/appleseed-camp/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Paint and Sip",
+      "date": "2026-06-24",
+      "time": "6:30 PM–8:30 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Whether you\\'re an experienced artist or picking up a paintbrush for the first time, this guided Paint & Sip experience is the perfect way to unwind and create something beautiful.</p>\\n",
+      "url": "https://blakefarms.com/event/paint-and-sip/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Friends Takeover",
+      "date": "2026-06-27",
+      "time": "10:00 AM–7:00 PM",
+      "location": "Blake&#8217;s Tasting Room, 17985 Armada Center Road, Armada, MI",
+      "description": "<p>Join us for our Friends Takeover and step into a world of coffee shop vibes, iconic quotes, themed cocktails, photo opportunities, trivia, and plenty of laughs.</p>\\n",
+      "url": "https://blakefarms.com/event/friends-takeover/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Funland Family Summer Night at Blake&#8217;s Lyon Township",
+      "date": "2026-06-27",
+      "time": "6:00 PM–9:00 PM",
+      "location": "Lyon Twp, 61475 Silver Lake Road, South Lyon",
+      "description": "<p>Funland Family Summer Night at Blake\\'s Lyon Township on June 27 from 6–9PM. Enjoy evening Funland access, train rides, music, and family-friendly activities in South Lyon, MI. </p>\\n",
+      "url": "https://blakefarms.com/event/blt-funland-family-summer-nights/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Boozy Book Fair",
+      "date": "2026-06-28",
+      "time": "11:00 AM–5:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Get ready for a book fair like no other at Blake’s Backyard. Grab a drink, find your next favorite read, and explore our lineup of fun vendors!</p>\\n",
+      "url": "https://blakefarms.com/event/blakes-boozy-book-fair/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Lavender Festival",
+      "date": "2026-07-10 to 2026-07-19",
+      "time": "7:00 AM–2:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Stroll through our lavender field sipping on lavender lemonade and enjoy shopping from 200+ local artisans! Whether you\\'re here for the Instagram-worthy views, the lavender-infused treats, or the family-friendly fun, this is a must-attend summer tradition!</p>\\n",
+      "url": "https://blakefarms.com/event/lavender-festival/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Sunflower Festival",
+      "date": "2026-08-28 to 2026-09-08",
+      "time": "8:00 PM–7:59 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Bask in the glow of summer’s golden hour at Blake’s Sunflower Festival! Wander through blooming fields, enjoy a cold sip, score unique finds, and capture every sunny moment—it’s the feel-good weekend you’ve been waiting for.</p>\\n",
+      "url": "https://blakefarms.com/event/sunflower-festival/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
     {
       "name": "DeBuck's Tulip Festival",
       "date": "2026-04-17 to 2026-05-03",
