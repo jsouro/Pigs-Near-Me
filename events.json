@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-19T12:57:30.938Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Wed, 19 Aug 2026 12:57:30 GMT.",
+  "lastUpdated": "2026-08-20T13:00:01.876Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 20 Aug 2026 13:00:01 GMT.",
   "events": [
     {
       "name": "Paint and Sip Fall Gnome",
@@ -33,12 +33,32 @@
       "sourceLabel": "Blake Farms"
     },
     {
+      "name": "Sunflower Date Night",
+      "date": "2026-09-03",
+      "time": "7:00 PM–8:30 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Escape to Blake\\'s Orchard & Cider Mill for a magical sunset train ride to our blooming sunflower field. It\\'s the perfect date night to unwind, enjoy the evening together, and make unforgettable summer memories.</p>\\n",
+      "url": "https://blakefarms.com/event/sunflower-date-night/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Adult and Senior Trips",
       "date": "2026-09-07 to 2026-10-28",
       "time": "1:00 PM–4:00 PM",
       "location": "Blake's Orchard & Cider Mill, Armada, MI",
       "description": "<p>Blake’s Orchard & Cider Mill provides adult and senior trips. Plan your fun and educational visit for guests of all ages!</p>\\n",
       "url": "https://blakefarms.com/event/blakes-orchard-and-cider-mill-adult-and-senior-trips/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Donut Dash 5K",
+      "date": "2026-09-12",
+      "time": "2:30 PM–5:00 PM",
+      "location": "Lyon Twp, 61475 Silver Lake Road, South Lyon",
+      "description": "<p>Blake\\'s Lyon Twp is proud to host our annual 5K Fun Run/Walk where racers breeze past apple trees—a seasonal delight equipped with classic fall cider mill vibes.</p>\\n",
+      "url": "https://blakefarms.com/event/donut-dash-5k/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
