@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-20T13:00:01.876Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 20 Aug 2026 13:00:01 GMT.",
+  "lastUpdated": "2026-08-21T12:58:31.829Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 21 Aug 2026 12:58:31 GMT.",
   "events": [
     {
       "name": "Paint and Sip Fall Gnome",
@@ -19,6 +19,16 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Bask in the glow of summer’s golden hour at Blake’s Sunflower Festival! Wander through blooming fields, enjoy a cold sip, score unique finds, and capture every sunny moment—it’s the feel-good weekend you’ve been waiting for.</p>\\n",
       "url": "https://blakefarms.com/event/sunflower-festival/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Vintage Market at Blake’s Lyon Township",
+      "date": "2026-08-30",
+      "time": "10:00 AM–4:00 PM",
+      "location": "Lyon Twp, 61475 Silver Lake Road, South Lyon",
+      "description": "<p>Every market is stocked with different inventory, so you’ll never know what treasures you’ll find at the Vintage Market at Blake’s Lyon Twp.!</p>\\n",
+      "url": "https://blakefarms.com/event/vintage-market-at-blakes-lyon-township/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
