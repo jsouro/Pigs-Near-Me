@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T12:57:45.071Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Tue, 25 Aug 2026 12:57:45 GMT.",
+  "lastUpdated": "2026-08-26T13:03:41.646Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Wed, 26 Aug 2026 13:03:41 GMT.",
   "events": [
     {
       "name": "Sunflower Festival",
@@ -23,12 +23,32 @@
       "sourceLabel": "Blake Farms"
     },
     {
+      "name": "Blake&#8217;s Big Apple &#8211; Fall School Trips",
+      "date": "2026-09-03",
+      "time": "9:00 AM–1:30 PM",
+      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
+      "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
+      "url": "https://blakefarms.com/event/blakes-big-apple-fall-school-trips/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
       "date": "2026-09-03 to 2026-11-06",
       "time": "9:00 AM–1:30 PM",
-      "location": "Blake's Orchard & Cider Mill, Armada, MI",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-orchard-and-cider-mill-fall-school-trips/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Lyon Township &#8211; Fall School Trips",
+      "date": "2026-09-03 to 2026-11-06",
+      "time": "9:00 AM–1:30 PM",
+      "location": "Lyon Twp, 61475 Silver Lake Road, South Lyon",
+      "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
+      "url": "https://blakefarms.com/event/blakes-lyon-township-fall-school-trips/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
