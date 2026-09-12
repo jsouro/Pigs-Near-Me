@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-11T16:15:36.940Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 11 Sep 2026 16:15:36 GMT.",
+  "lastUpdated": "2026-09-12T15:21:57.346Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 12 Sep 2026 15:21:57 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -59,6 +59,16 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>This is a great, wear-a-costume 5k for all ages! Blake’s Haunted Orchard 5k walk/run on gravel trails around the family-owned farm. </p>\\n",
       "url": "https://blakefarms.com/event/blakes-haunted-orchard-5k/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Backyard Fall Bonfires",
+      "date": "2026-09-18 to 2026-10-31",
+      "time": "5:00 PM–7:30 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
+      "url": "https://blakefarms.com/event/backyard-fall-bonfires/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
