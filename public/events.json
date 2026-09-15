@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14T17:58:46.556Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 14 Sep 2026 17:58:46 GMT.",
+  "lastUpdated": "2026-09-15T16:42:52.978Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Tue, 15 Sep 2026 16:42:52 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -79,6 +79,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Blake’s Backyard Fall Night Market: shop local vendors, enjoy live music, seasonal food & drinks, and a cozy autumn night out—pets welcome!</p>\\n",
       "url": "https://blakefarms.com/event/blakes-backyard-fall-night-market/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Backyard Book Club",
+      "date": "2026-10-07",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Join us for an evening of literary fun at Blake’s Backyard! This FREE event is the perfect place to connect with fellow readers and have a little fun.</p>\\n",
+      "url": "https://blakefarms.com/event/backyard-book-club/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
