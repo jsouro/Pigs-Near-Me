@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-18T16:12:12.860Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 18 Sep 2026 16:12:12 GMT.",
+  "lastUpdated": "2026-09-19T15:43:32.444Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 19 Sep 2026 15:43:32 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -43,16 +43,6 @@
       "sourceLabel": "Blake Farms"
     },
     {
-      "name": "Blake&#8217;s Haunted Orchard 5k",
-      "date": "2026-09-18",
-      "time": "4:00 PM–11:00 PM",
-      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
-      "description": "<p>This is a great, wear-a-costume 5k for all ages! Blake’s Haunted Orchard 5k walk/run on gravel trails around the family-owned farm. </p>\\n",
-      "url": "https://blakefarms.com/event/blakes-haunted-orchard-5k/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
       "name": "Backyard Fall Bonfires",
       "date": "2026-09-18 to 2026-10-31",
       "time": "5:00 PM–7:30 PM",
@@ -79,6 +69,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Blake’s Backyard Fall Night Market: shop local vendors, enjoy live music, seasonal food & drinks, and a cozy autumn night out—pets welcome!</p>\\n",
       "url": "https://blakefarms.com/event/blakes-backyard-fall-night-market/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Haunted Night Market",
+      "date": "2026-10-02",
+      "time": "5:00 PM–7:00 PM",
+      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
+      "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
+      "url": "https://blakefarms.com/event/haunted-night-market/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
