@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-21T18:06:47.858Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 21 Sep 2026 18:06:47 GMT.",
+  "lastUpdated": "2026-09-22T16:42:13.801Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Tue, 22 Sep 2026 16:42:13 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -78,7 +78,7 @@
       "time": "5:00 PM–7:00 PM",
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
-      "url": "https://blakefarms.com/event/haunted-night-market/",
+      "url": "https://blakefarms.com/event/blakes-haunted-night-market/2026-10-02/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -89,6 +89,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Join us for an evening of literary fun at Blake’s Backyard! This FREE event is the perfect place to connect with fellow readers and have a little fun.</p>\\n",
       "url": "https://blakefarms.com/event/backyard-book-club/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Haunted Night Market",
+      "date": "2026-10-16",
+      "time": "5:00 PM–7:00 PM",
+      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
+      "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
+      "url": "https://blakefarms.com/event/blakes-haunted-night-market/2026-10-16/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
