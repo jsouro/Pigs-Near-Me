@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-27T16:46:28.752Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 27 Sep 2026 16:46:28 GMT.",
+  "lastUpdated": "2026-09-28T19:30:50.408Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 28 Sep 2026 19:30:50 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -79,6 +79,16 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-haunted-night-market/2026-10-16/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake Farms Winter School Trips",
+      "date": "2026-11-16 to 2026-12-18",
+      "time": "9:00 AM–3:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Join us at Blake’s for a fun and educational winter adventure. Students will explore the outdoors and learn all about evergreen trees—the ones that stay green all year long!</p>\\n",
+      "url": "https://blakefarms.com/event/blake-farms-winter-school-trips/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
