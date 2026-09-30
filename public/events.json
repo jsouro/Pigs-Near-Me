@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-29T17:57:45.437Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Tue, 29 Sep 2026 17:57:45 GMT.",
+  "lastUpdated": "2026-09-30T17:53:07.695Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Wed, 30 Sep 2026 17:53:07 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -89,6 +89,16 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Think you can survive our 3-Story Haunted Barn… in TOTAL DARKNESS? Limited visibility. Double the actors. Maximum terror. Your only guide? A glow stick… if you dare.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-haunted-barn-blackout-night/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Haunted Halloween Bash",
+      "date": "2026-10-31",
+      "time": "6:00 PM–11:00 PM",
+      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
+      "description": "<p>COSTUME CONTESTS - Show off your Halloween best for a chance to win prizes in four different categories!</p>\\n",
+      "url": "https://blakefarms.com/event/haunted-halloween-bash/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
