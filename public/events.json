@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-02T17:44:02.948Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 02 Oct 2026 17:44:02 GMT.",
+  "lastUpdated": "2026-10-03T16:02:54.965Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 03 Oct 2026 16:02:54 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -39,26 +39,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
       "url": "https://blakefarms.com/event/haunted-attractions/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Blake&#8217;s Haunted Night Market",
-      "date": "2026-10-02",
-      "time": "5:00 PM–7:00 PM",
-      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
-      "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
-      "url": "https://blakefarms.com/event/blakes-haunted-night-market/2026-10-02/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Backyard Fall Bonfires",
-      "date": "2026-10-02",
-      "time": "5:00 PM–9:30 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
-      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-02/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +99,26 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
       "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-16/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Backyard Fall Bonfires",
+      "date": "2026-10-17",
+      "time": "5:00 PM–9:30 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
+      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-17/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Backyard Fall Bonfires",
+      "date": "2026-10-23",
+      "time": "5:00 PM–9:30 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
+      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-23/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
