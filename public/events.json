@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-05T20:32:44.849Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 05 Oct 2026 20:32:44 GMT.",
+  "lastUpdated": "2026-10-06T18:11:36.957Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Tue, 06 Oct 2026 18:11:36 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -73,22 +73,22 @@
       "sourceLabel": "Blake Farms"
     },
     {
-      "name": "Blake&#8217;s Haunted Night Market",
-      "date": "2026-10-16",
-      "time": "5:00 PM–7:00 PM",
-      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
-      "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
-      "url": "https://blakefarms.com/event/blakes-haunted-night-market/2026-10-16/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
       "name": "Backyard Fall Bonfires",
       "date": "2026-10-16",
       "time": "5:00 PM–9:30 PM",
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
       "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-16/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Haunted Night Market",
+      "date": "2026-10-16",
+      "time": "5:00 PM–10:00 PM",
+      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
+      "description": "<p>***Happening October 2nd and October 16th**<br />\\n As the sun sets, wander through a moonlit market filled with vendors offering spooky-themed goods, handmade treasures, and devilishly good treats.</p>\\n",
+      "url": "https://blakefarms.com/event/blakes-haunted-night-market/2026-10-16/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
