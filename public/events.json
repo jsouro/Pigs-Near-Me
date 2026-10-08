@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-07T18:45:03.039Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Wed, 07 Oct 2026 18:45:03 GMT.",
+  "lastUpdated": "2026-10-08T18:43:08.336Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 08 Oct 2026 18:43:08 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -39,16 +39,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
       "url": "https://blakefarms.com/event/haunted-attractions/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Blake&#8217;s Backyard Book Club",
-      "date": "2026-10-07",
-      "time": "6:00 PM–8:00 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Join us for an evening of literary fun at Blake’s Backyard! This FREE event is the perfect place to connect with fellow readers and have a little fun.</p>\\n",
-      "url": "https://blakefarms.com/event/backyard-book-club/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
       "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-24/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Backyard Fall Bonfires",
+      "date": "2026-10-30",
+      "time": "5:00 PM–9:30 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
+      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-30/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
