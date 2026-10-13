@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-12T21:09:03.219Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 12 Oct 2026 21:09:03 GMT.",
+  "lastUpdated": "2026-10-13T19:07:58.566Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Tue, 13 Oct 2026 19:07:58 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -16,7 +16,7 @@
       "name": "Blake&#8217;s Lyon Township &#8211; Fall School Trips",
       "date": "2026-09-03 to 2026-11-06",
       "time": "9:00 AM–1:30 PM",
-      "location": "Lyon Twp, 61475 Silver Lake Road, South Lyon",
+      "location": "Blake&#8217;s Lyon Township, 61475 Silver Lake Road, South Lyon, MI",
       "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-lyon-township-fall-school-trips/",
       "sourceType": "google",
@@ -93,6 +93,16 @@
       "sourceLabel": "Blake Farms"
     },
     {
+      "name": "American Legion Apple Orchard Car Show",
+      "date": "2026-10-25",
+      "time": "9:00 AM–2:00 PM",
+      "location": "Blake&#8217;s Lyon Township, 61475 Silver Lake Road, South Lyon, MI",
+      "description": "<p>Classic cars, trucks and motorcycles at Blake\\'s Lyon Township. Free admission. Proceeds benefit the American Legion.</p>\\n",
+      "url": "https://blakefarms.com/event/american-legion-apple-orchard-car-show/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
       "name": "Backyard Fall Bonfires",
       "date": "2026-10-30",
       "time": "5:00 PM–9:30 PM",
@@ -109,16 +119,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Think you can survive our 3-Story Haunted Barn… in TOTAL DARKNESS? Limited visibility. Double the actors. Maximum terror. Your only guide? A glow stick… if you dare.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-haunted-barn-blackout-night/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Backyard Fall Bonfires",
-      "date": "2026-10-31",
-      "time": "5:00 PM–9:30 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
-      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-31/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
