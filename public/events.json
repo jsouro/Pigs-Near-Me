@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-17T15:20:34.984Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 17 Oct 2026 15:20:34 GMT.",
+  "lastUpdated": "2026-10-18T15:41:52.103Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 18 Oct 2026 15:41:52 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -39,16 +39,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
       "url": "https://blakefarms.com/event/haunted-attractions/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Backyard Fall Bonfires",
-      "date": "2026-10-17",
-      "time": "5:00 PM–9:30 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
-      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-17/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>COSTUME CONTESTS - Show off your Halloween best for a chance to win prizes in four different categories!</p>\\n",
       "url": "https://blakefarms.com/event/haunted-halloween-bash/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Tales &#038; Cocktails: A Guided Mixology Class",
+      "date": "2026-11-11",
+      "time": "6:30 PM–8:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Because every great drink has a history worth toasting! This guided class teaches you to craft a unique seasonal cocktail from shaken to served!</p>\\n",
+      "url": "https://blakefarms.com/event/tales-cocktails/2026-11-11/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
