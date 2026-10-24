@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-23T16:50:41.685Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 23 Oct 2026 16:50:41 GMT.",
+  "lastUpdated": "2026-10-24T15:42:59.747Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 24 Oct 2026 15:42:59 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -39,16 +39,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
       "url": "https://blakefarms.com/event/haunted-attractions/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Backyard Fall Bonfires",
-      "date": "2026-10-23",
-      "time": "5:00 PM–9:30 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
-      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-23/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Because every great drink has a history worth toasting! This guided class teaches you to craft a unique seasonal cocktail from shaken to served!</p>\\n",
       "url": "https://blakefarms.com/event/tales-cocktails/2026-11-11/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "DIY Porch Pot Workshop at the Cider Mill",
+      "date": "2026-11-14",
+      "time": "11:00 AM–1:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Get into the festive spirit and design a custom seasonal porch pot to brighten your entryway, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-the-cider-mill/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
