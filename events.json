@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-25T15:54:17.071Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 25 Oct 2026 15:54:17 GMT.",
+  "lastUpdated": "2026-10-26T18:34:24.752Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 26 Oct 2026 18:34:24 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -39,16 +39,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
       "url": "https://blakefarms.com/event/haunted-attractions/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "American Legion Apple Orchard Car Show",
-      "date": "2026-10-25",
-      "time": "9:00 AM–2:00 PM",
-      "location": "Blake&#8217;s Lyon Township, 61475 Silver Lake Road, South Lyon, MI",
-      "description": "<p>Classic cars, trucks and motorcycles at Blake\\'s Lyon Township. Free admission. Proceeds benefit the American Legion.</p>\\n",
-      "url": "https://blakefarms.com/event/american-legion-apple-orchard-car-show/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -93,6 +83,16 @@
       "sourceLabel": "Blake Farms"
     },
     {
+      "name": "Customer Appreciation Week",
+      "date": "2026-11-02 to 2026-11-08",
+      "time": "12:00 AM–11:59 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Join us at all Blake’s locations as we wrap up the fall season with a week dedicated to YOU — our amazing customers!</p>\\n",
+      "url": "https://blakefarms.com/event/customer-appreciation/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
       "name": "Tales &#038; Cocktails: A Guided Mixology Class",
       "date": "2026-11-11",
       "time": "6:30 PM–8:00 PM",
@@ -103,22 +103,22 @@
       "sourceLabel": "Blake Farms"
     },
     {
+      "name": "Paint &#038; Sip Dinner at Blake&#8217;s Backyard (November)",
+      "date": "2026-11-12",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Escape the holiday rush and join us for a cozy fall evening of painting, sipping and relaxing in the Greenhouse at Blake\\'s Backyard. No experience needed: an instructor guides you step by step, and you take home a finished 16&quot; x 20&quot; canvas.RESERVE YOUR SPOTThursday, November 12, 6–8pm · $54.95 per person (plus ticket fee; [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/paint-and-sip-dinner-november-2026/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
       "name": "DIY Porch Pot Workshop at the Cider Mill",
       "date": "2026-11-14",
       "time": "11:00 AM–1:00 PM",
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Get into the festive spirit and design a custom seasonal porch pot to brighten your entryway, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food [&hellip;]</p>\\n",
       "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-the-cider-mill/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Blake Farms Winter School Trips",
-      "date": "2026-11-16 to 2026-12-18",
-      "time": "9:00 AM–3:00 PM",
-      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
-      "description": "<p>Join us at Blake’s for a fun and educational winter adventure. Students will explore the outdoors and learn all about evergreen trees—the ones that stay green all year long!</p>\\n",
-      "url": "https://blakefarms.com/event/blake-farms-winter-school-trips/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
