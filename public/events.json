@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-28T18:13:17.338Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Wed, 28 Oct 2026 18:13:17 GMT.",
+  "lastUpdated": "2026-10-29T18:18:35.604Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 29 Oct 2026 18:18:35 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -19,16 +19,6 @@
       "location": "Blake&#8217;s Lyon Township, 61475 Silver Lake Road, South Lyon, MI",
       "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-lyon-township-fall-school-trips/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Adult and Senior Trips",
-      "date": "2026-09-07 to 2026-10-28",
-      "time": "1:00 PM–4:00 PM",
-      "location": "Blake's Orchard & Cider Mill, Armada, MI",
-      "description": "<p>Blake’s Orchard & Cider Mill provides adult and senior trips. Plan your fun and educational visit for guests of all ages!</p>\\n",
-      "url": "https://blakefarms.com/event/blakes-orchard-and-cider-mill-adult-and-senior-trips/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Get into the festive spirit and design a custom seasonal porch pot to brighten your entryway, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food [&hellip;]</p>\\n",
       "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-the-cider-mill/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake Farms Winter School Trips",
+      "date": "2026-11-16 to 2026-12-18",
+      "time": "9:00 AM–3:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Join us at Blake’s for a fun and educational winter adventure. Students will explore the outdoors and learn all about evergreen trees—the ones that stay green all year long!</p>\\n",
+      "url": "https://blakefarms.com/event/blake-farms-winter-school-trips/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
