@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T17:06:43.714Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 31 Oct 2026 17:06:43 GMT.",
+  "lastUpdated": "2026-11-01T17:49:39.119Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 01 Nov 2026 17:49:39 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -29,26 +29,6 @@
       "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
       "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
       "url": "https://blakefarms.com/event/haunted-attractions/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Backyard Fall Bonfires",
-      "date": "2026-10-31",
-      "time": "5:00 PM–9:30 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Fridays and Saturdays in the fall are better spent with donuts, cider, hot dogs and s\\'mores over a campfire. Bring your friends and family over to our Backyard location and relax in style.</p>\\n",
-      "url": "https://blakefarms.com/event/backyard-fall-bonfires/2026-10-31/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Haunted Halloween Bash",
-      "date": "2026-10-31",
-      "time": "6:00 PM–11:00 PM",
-      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
-      "description": "<p>COSTUME CONTESTS - Show off your Halloween best for a chance to win prizes in four different categories!</p>\\n",
-      "url": "https://blakefarms.com/event/haunted-halloween-bash/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +99,26 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Design a custom 12&quot; seasonal porch pot with fresh greenery, ribbons and decorative fillers, with step-by-step help from our instructor. Held in the Greenhouse at Blake\\'s Backyard.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food and drinks are available for purchase.See all ",
       "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-blakes-backyard/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Christmas Tree Lot Opening Day at Blake&#8217;s Orchard &#038; Cider Mill",
+      "date": "2026-11-20",
+      "time": "12:00 AM–11:59 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Our Christmas Tree Lot opens Friday, November 20 at Blake\\'s Orchard & Cider Mill in Armada.</p>\\n",
+      "url": "https://blakefarms.com/event/christmas-tree-lot-opening-day-at-blakes-orchard-cider-mill/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Blake&#8217;s Holiday Hustle 5K",
+      "date": "2026-11-21",
+      "time": "9:30 AM–12:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Get ready to jingle all the way at our jolly Holiday Hustle 5K Fun Run & Walk and kick off the start to the holiday season with us! Costumes are highly encouraged and strollers are welcome. Celebrate at the finish with sweet cider (or hard cider for the grown-ups) and donuts.Race starts at 9:30am. Packet [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/blakes-holiday-hustle-5k/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
