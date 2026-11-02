@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-01T17:49:39.119Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 01 Nov 2026 17:49:39 GMT.",
+  "lastUpdated": "2026-11-02T21:36:57.665Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 02 Nov 2026 21:36:57 GMT.",
   "events": [
     {
       "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
@@ -19,16 +19,6 @@
       "location": "Blake&#8217;s Lyon Township, 61475 Silver Lake Road, South Lyon, MI",
       "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
       "url": "https://blakefarms.com/event/blakes-lyon-township-fall-school-trips/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Haunted Attractions",
-      "date": "2026-09-12 to 2026-11-01",
-      "time": "6:00 PM–11:00 PM",
-      "location": "Blake&#8217;s Big Apple, 71485 North Ave, Armada, MI",
-      "description": "<p>Blake Farms Haunted Attractions LOCATED AT Blake\\'s Big Apple Experience the ultimate Halloween adventure with Blake’s Haunted Attractions, where spine-tingling thrills and family-friendly fall fun come together for an unforgettable night.</p>\\n",
-      "url": "https://blakefarms.com/event/haunted-attractions/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Get ready to jingle all the way at our jolly Holiday Hustle 5K Fun Run & Walk and kick off the start to the holiday season with us! Costumes are highly encouraged and strollers are welcome. Celebrate at the finish with sweet cider (or hard cider for the grown-ups) and donuts.Race starts at 9:30am. Packet [&hellip;]</p>\\n",
       "url": "https://blakefarms.com/event/blakes-holiday-hustle-5k/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Tree Lighting at Blake&#8217;s Orchard &#038; Cider Mill",
+      "date": "2026-11-21",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Join us Saturday, November 21 at 6:00 PM for a magical evening of holiday cheer at Blake\\'s Orchard & Cider Mill as we light up the season. Enjoy caroling, live music, fire pits, and seasonal drinks like hot cider and hot cocoa.RSVP FOR FREEFree admission. RSVP is optional. Pre-cut Christmas trees are for sale until [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/tree-lighting-2026/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
