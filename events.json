@@ -1,27 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T19:46:12.561Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 05 Nov 2026 19:46:12 GMT.",
+  "lastUpdated": "2026-11-06T19:10:11.791Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 06 Nov 2026 19:10:11 GMT.",
   "events": [
-    {
-      "name": "Blake&#8217;s Orchard and Cider Mill &#8211; Fall School Trips",
-      "date": "2026-09-03 to 2026-11-06",
-      "time": "9:00 AM–1:30 PM",
-      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
-      "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
-      "url": "https://blakefarms.com/event/blakes-orchard-and-cider-mill-fall-school-trips/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "Blake&#8217;s Lyon Township &#8211; Fall School Trips",
-      "date": "2026-09-03 to 2026-11-06",
-      "time": "9:00 AM–1:30 PM",
-      "location": "Blake&#8217;s Lyon Township, 61475 Silver Lake Road, South Lyon, MI",
-      "description": "<p>Take a wagon or train ride to the orchard where children view agriculture and enjoy a unique farm experience. Enjoy a day filled with age-appropriate activities and a hands-on apple and/or pumpkin picking experience.</p>\\n",
-      "url": "https://blakefarms.com/event/blakes-lyon-township-fall-school-trips/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
     {
       "name": "Customer Appreciation Week 2026",
       "date": "2026-11-02 to 2026-11-08",
@@ -119,6 +99,26 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Join us November 21–22, November 27–29, and every Saturday and Sunday in December (Dec 5–6, 12–13 and 19–20) for Blake\\'s Santa Experience at the Orchard & Cider Mill (Lovey\\'s Lavender House).Tickets include: a visit and photo opportunities with Santa, 1 donut and a cup of cold/hot cider or hot chocolate, a letter to Santa or [&hellip;]</p>\\n",
       "url": "https://blakefarms.com/event/santa-experience-2026/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Tree Lighting at Blake&#8217;s Orchard &#038; Cider Mill",
+      "date": "2026-11-21",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Join us Saturday, November 21 at 6:00 PM for a magical evening of holiday cheer at Blake\\'s Orchard & Cider Mill as we light up the season. Enjoy caroling, live music, fire pits, and seasonal drinks like hot cider and hot cocoa.RSVP FOR FREEFree admission. RSVP is optional. Pre-cut Christmas trees are for sale until [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/tree-lighting-2026/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "DIY Porch Pot Workshop at Blake&#8217;s Backyard",
+      "date": "2026-11-22",
+      "time": "4:00 PM–6:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Design a custom 12&quot; seasonal porch pot with fresh greenery, ribbons and decorative fillers, with step-by-step help from our instructor. Held in the Greenhouse at Blake\\'s Backyard.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food and drinks are available for purchase.See all ",
+      "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-blakes-backyard-2/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
