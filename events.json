@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-11-08T17:49:47.484Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 08 Nov 2026 17:49:47 GMT.",
+  "lastUpdated": "2026-11-09T22:10:23.514Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Mon, 09 Nov 2026 22:10:23 GMT.",
   "events": [
-    {
-      "name": "Customer Appreciation Week 2026",
-      "date": "2026-11-02 to 2026-11-08",
-      "time": "12:00 AM–11:59 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Customer Appreciation Week 2026 runs November 2–8, 2026 at all Blake’s locations. Join us as we wrap up the fall season with a week of deals dedicated to YOU, our amazing customers!</p>\\n",
-      "url": "https://blakefarms.com/event/customer-appreciation/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
     {
       "name": "Tales &#038; Cocktails: A Guided Mixology Class",
       "date": "2026-11-11",
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Design a custom 12&quot; seasonal porch pot with fresh greenery, ribbons and decorative fillers, with step-by-step help from our instructor. Held in the Greenhouse at Blake\\'s Backyard.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food and drinks are available for purchase.See all ",
       "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-blakes-backyard-2/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "DIY Tabletop / Mantle Decor Workshop",
+      "date": "2026-11-24",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
+      "description": "<p>Build a custom evergreen tabletop centerpiece or mantle piece for the holidays using 16 ft of fresh garland, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/diy-tabletop-mantle-decor-workshop/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
