@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-11-11T19:27:08.019Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Wed, 11 Nov 2026 19:27:08 GMT.",
+  "lastUpdated": "2026-11-12T19:44:54.105Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 12 Nov 2026 19:44:54 GMT.",
   "events": [
-    {
-      "name": "Tales &#038; Cocktails: A Guided Mixology Class",
-      "date": "2026-11-11",
-      "time": "6:30 PM–8:00 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Because every great drink has a history worth toasting! This guided class teaches you to craft a unique seasonal cocktail from shaken to served!</p>\\n",
-      "url": "https://blakefarms.com/event/tales-cocktails/2026-11-11/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
     {
       "name": "Paint &#038; Sip Dinner at Blake&#8217;s Backyard (November)",
       "date": "2026-11-12",
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Build a custom evergreen tabletop centerpiece or mantle piece for the holidays using 16 ft of fresh garland, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are [&hellip;]</p>\\n",
       "url": "https://blakefarms.com/event/diy-tabletop-mantle-decor-workshop/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "DIY Wreath Workshop at Blake&#8217;s Backyard",
+      "date": "2026-11-30",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Make a 24&quot; fresh evergreen wreath for your door, with step-by-step help from our instructor. Held in the Greenhouse at Blake\\'s Backyard.RESERVE YOUR SPOT$39.95 per person. Includes a 24&quot; wreath, fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food and drinks are available for purchase.See all Holiday Evergreen [&hell",
+      "url": "https://blakefarms.com/event/diy-wreath-workshop-at-blakes-backyard/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
