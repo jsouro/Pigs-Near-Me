@@ -1,17 +1,7 @@
 {
-  "lastUpdated": "2026-11-14T17:51:16.357Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sat, 14 Nov 2026 17:51:16 GMT.",
+  "lastUpdated": "2026-11-15T18:41:20.396Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Sun, 15 Nov 2026 18:41:20 GMT.",
   "events": [
-    {
-      "name": "DIY Porch Pot Workshop at the Cider Mill",
-      "date": "2026-11-14",
-      "time": "11:00 AM–1:00 PM",
-      "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
-      "description": "<p>Get into the festive spirit and design a custom seasonal porch pot to brighten your entryway, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food [&hellip;]</p>\\n",
-      "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-the-cider-mill/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
     {
       "name": "Blake Farms Winter School Trips",
       "date": "2026-11-16 to 2026-12-18",
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Make a 24&quot; fresh evergreen wreath for your door, with step-by-step help from our instructor. Held in the Orchard Square Tent at Blake\\'s Orchard & Cider Mill.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food and drinks are available for purchase.See all [&hellip;]</p>\\n",
       "url": "https://blakefarms.com/event/diy-wreath-workshop/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Boozy Book Fair at Blake’s Backyard",
+      "date": "2026-12-06",
+      "time": "11:00 AM–5:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>It’s the most wonderful time of the year to discover your next favorite read! Join us at Blake’s Backyard for a holiday book fair filled with festive finds, cozy sips, and unique vendors. Grab a seasonal drink, discover your next favorite read, and shop for one-of-a-kind gifts while soaking up the holiday spirit. Here’s what’s [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/boozy-book-fair-at-blakes-backyard/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
