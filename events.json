@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-19T20:20:45.358Z",
-  "refreshNotes": "Auto-refreshed from 16 farm event pages on Thu, 19 Nov 2026 20:20:45 GMT.",
+  "lastUpdated": "2026-11-20T19:52:06.122Z",
+  "refreshNotes": "Auto-refreshed from 16 farm event pages on Fri, 20 Nov 2026 19:52:06 GMT.",
   "events": [
     {
       "name": "Blake Farms Winter School Trips",
@@ -9,16 +9,6 @@
       "location": "Blake&#8217;s Orchard &#038; Cider Mill, 17985 Armada Center Rd, Armada, MI",
       "description": "<p>Join us at Blake’s for a fun and educational winter adventure. Students will explore the outdoors and learn all about evergreen trees—the ones that stay green all year long!</p>\\n",
       "url": "https://blakefarms.com/event/blake-farms-winter-school-trips/",
-      "sourceType": "google",
-      "sourceLabel": "Blake Farms"
-    },
-    {
-      "name": "DIY Porch Pot Workshop at Blake&#8217;s Backyard",
-      "date": "2026-11-19",
-      "time": "6:00 PM–8:00 PM",
-      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
-      "description": "<p>Design a custom 12&quot; seasonal porch pot with fresh greenery, ribbons and decorative fillers, with step-by-step help from our instructor. Held in the Greenhouse at Blake\\'s Backyard.RESERVE YOUR SPOT$39.95 per person. Includes fresh greenery, seasonal fillers, ribbon accents and instructor guidance. No experience needed. Spaces are limited. Food and drinks are available for purchase.See all ",
-      "url": "https://blakefarms.com/event/diy-porch-pot-workshop-at-blakes-backyard/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
@@ -119,6 +109,16 @@
       "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
       "description": "<p>Because every great drink has a history worth toasting! This guided class teaches you to craft a unique seasonal cocktail from shaken to served!</p>\\n",
       "url": "https://blakefarms.com/event/tales-cocktails/2026-12-09/",
+      "sourceType": "google",
+      "sourceLabel": "Blake Farms"
+    },
+    {
+      "name": "Paint &#038; Sip Dinner at Blake&#8217;s Backyard (December)",
+      "date": "2026-12-16",
+      "time": "6:00 PM–8:00 PM",
+      "location": "Blake&#8217;s Backyard, 5590 Van Dyke, Almont, MI",
+      "description": "<p>Escape the holiday rush and join us for a cozy winter evening of painting, sipping and relaxing in the Greenhouse at Blake\\'s Backyard. No experience needed: an instructor guides you step by step, and you take home a finished 16&quot; x 20&quot; canvas.RESERVE YOUR SPOTWednesday, December 16, 6–8pm · $54.95 per person (plus ticket fee; [&hellip;]</p>\\n",
+      "url": "https://blakefarms.com/event/paint-and-sip-dinner-december-2026/",
       "sourceType": "google",
       "sourceLabel": "Blake Farms"
     },
